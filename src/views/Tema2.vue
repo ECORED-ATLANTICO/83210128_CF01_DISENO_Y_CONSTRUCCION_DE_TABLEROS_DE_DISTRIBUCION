@@ -148,7 +148,7 @@
             figure
               img(src='@/assets/curso/tema2/img05.png', alt='Aislantes')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 7.
@@ -192,9 +192,9 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema2/img06.svg", style="width: 70px")
             .col
@@ -212,7 +212,7 @@
       .col-lg-12
         .tarjeta.bg-color-11.p-4.mb-3
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema2/img07.svg", style="width: 70px")
             .col
@@ -231,9 +231,9 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema2/img08.svg", style="width: 70px")
             .col
@@ -244,7 +244,7 @@
       .col-lg-12
         .tarjeta.bg-color-11.p-4.mb-3
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema2/img09.svg", style="width: 70px")
             .col
@@ -253,16 +253,16 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema2/img10.svg", style="width: 70px")
             .col
               h4 Interruptores o dispositivos de control
               p.mb-0 Los interruptores o dispositivos de control permiten abrir o cerrar el circuito para habilitar o interrumpir el paso de corriente, garantizando la operación segura del sistema. Entre los más utilizados se encuentran los interruptores unipolares y bipolares, los pulsadores, las llaves térmicas y los contactores, empleados en maniobra, protección y automatización.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 8.
@@ -317,7 +317,8 @@
           h5 Figura 3.
           span Protecciones eléctricas y su función en el circuito
         figure.mb-2
-          img(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
+          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
+          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img16_m.png", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
         figcaption <strong>Nota:</strong> SENA, 2026
 
 

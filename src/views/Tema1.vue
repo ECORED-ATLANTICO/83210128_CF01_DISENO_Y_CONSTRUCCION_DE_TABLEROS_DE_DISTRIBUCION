@@ -7,7 +7,7 @@
         span 1
       h1 Fundamentos de electricidad
       
-    .bloque-texto-b.color-1.p-4(data-aos="fade-up").mb-5
+    .bloque-texto-b.color-1.p-4(data-aos="fade-up").mb-3
       .bloque-texto-b__texto
         i.fas.fa-quote-left
         p.mb-0 El estudio de los fundamentos de electricidad constituye la base para comprender el comportamiento de los sistemas eléctricos y la interacción de sus componentes. Estos principios permiten explicar fenómenos esenciales como el movimiento de electrones, la presencia de cargas y la generación de campos eléctricos, los cuales sustentan el funcionamiento de cualquier circuito. Según autores especializados en el área de la electrofísica, comprender estas nociones iniciales es indispensable para analizar y predecir el comportamiento de la corriente, la tensión y la resistencia dentro de diferentes configuraciones eléctricas, facilitando el desarrollo de habilidades técnicas aplicadas al sector productivo.
@@ -21,13 +21,13 @@
       h2 1.1 Estructura del átomo y flujo de electrones
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-4.col-lg-3.mb-4.mb-lg-0
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img01.png", data-aos="zoom-in")
+          img.mx-auto(src="@/assets/curso/tema1/img01.png", data-aos="zoom-in")
       .col-lg-9
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img02.svg", data-aos="zoom-in")
             .col
@@ -80,9 +80,9 @@
       .col-lg-9.mb-4.mb-lg-0
         p.mb-3 Los electrones no se ubican de manera aleatoria. Se distribuyen en niveles de energía que rodean al núcleo, y estos niveles están organizados de menor a mayor energía. El nivel más externo se denomina capa de valencia, y es aquí donde se encuentran los electrones que participan en procesos eléctricos.
         
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img05.svg", data-aos="zoom-in")
             .col
@@ -90,7 +90,7 @@
 
         p.mb-0 La cantidad de electrones en la capa externa determina el comportamiento eléctrico de un material:
         
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3
         figure
           img(src="@/assets/curso/tema1/img04.png", data-aos="zoom-in")
 
@@ -106,7 +106,7 @@
 
       
     .row.justify-content-center.mb-5
-      .col-xl-6.col-lg-6.col-md-9.col-12.mb-4.mb-xl-0
+      .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -115,7 +115,7 @@
             h4.mb-3 Fenómeno del flujo de electrones
             p.mb-0 Cuando un electrón de valencia recibe energía suficiente, puede liberarse del átomo. A este proceso se le denomina ionización. En un conductor, los electrones se desplazan de un átomo a otro formando un fenómeno llamado corriente eléctrica.
     
-      .col-xl-6.col-lg-6.col-md-9.col-12.mb-4.mb-xl-0
+      .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -164,11 +164,11 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
-          .row
+        .bg-color-1.p-4.bg-tarjeta.mb-3
+          .row.align-items-center
             .col
               p.mb-0 La comprensión del átomo y su estructura permite fundamentar el estudio de las magnitudes eléctricas, ya que el comportamiento de los electrones es la base de los fenómenos eléctricos. La corriente eléctrica (I) se entiende como el flujo ordenado de electrones a través de un conductor; el voltaje (V) representa la fuerza o diferencia de potencial que impulsa ese movimiento; y la resistencia (R) constituye la oposición que ofrece el material al paso de dichos electrones. Estas magnitudes no son conceptos aislados, sino que se articulan en principios como la Ley de Ohm, la cual describe matemáticamente su relación y explica cómo el comportamiento microscópico de los electrones en un material se traduce en efectos eléctricos medibles a nivel macroscópico.              
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img10.svg", data-aos="zoom-in")
 
@@ -177,17 +177,17 @@
         figure
           img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in")
       .col-md-12.col-lg-6
-        .tarjeta.bg-color-3.p-4.mb-3
+        .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo.
             
-        .tarjeta.bg-color-3.p-4.mb-3
+        .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad.
             
-        .tarjeta.bg-color-3.p-4.mb-3
+        .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada.
             
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10.mb-5
+      .col-lg-10.mb-0
         .tarjeta.color-primario.p-2.banner_tarjeta
           .row.justify-content-around.align-items-center.p-3
             .col-auto
@@ -224,7 +224,7 @@
    
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           p.mb-0 La carga eléctrica es una propiedad física que determina cómo interactúan las partículas en presencia de otras cargas. Existen dos tipos principales: positiva y negativa, y su comportamiento se rige por tres principios fundamentales:
 
     .row.justify-content-center.mb-5
@@ -250,7 +250,7 @@
             p.mb-3 Al frotar un globo en el cabello, el globo queda cargado negativamente. El cabello pierde electrones y queda cargado positivamente.
             p.mb-0 <strong>Resultado:</strong> el globo es atraído hacia el cabello.
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-4.col-md-6.col-12.mb-0.mb-xl-0
         .tarjeta.bg-color-white.box-shadow.p-0.h-100
           figure
             img(src="@/assets/curso/tema1/img17.png", alt="Principio 3")
@@ -272,11 +272,11 @@
             h3.titulo-con-imagen__texto Unidades de carga eléctrica
    
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-4.col-lg-3.mb-4.mb-lg-0
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img18.png", data-aos="zoom-in")
       .col-lg-9
-        .tarjeta.bg-color-1.p-3.mb-3
+        .tarjeta.bg-color-1.p-3.mb-3.br-15
           p.mb-0 En el Sistema Internacional (SI), la unidad de carga es el coulomb (C). Esta unidad permite cuantificar de forma práctica la cantidad de carga que se desplaza en un conductor.
 
         .lista-ul.mb-3
@@ -325,7 +325,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-4.col-lg-3.mb-4.mb-lg-0
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img19.svg", data-aos="zoom-in")
       .col-lg-9
@@ -352,15 +352,15 @@
             h3.titulo-con-imagen__texto Concepto de campo eléctrico
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-4.col-lg-3.mb-4.mb-lg-0
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img20.svg", data-aos="zoom-in")
       .col-lg-9
-        .tarjeta.bg-color-1.p-4.mb-3
-          .row
+        .bg-color-1.p-4.bg-tarjeta.mb-3
+          .row.align-items-center
             .col
               p.mb-0 El campo eléctrico es una magnitud física que describe la influencia que una carga ejerce sobre otras en su entorno. Se define como la fuerza eléctrica que experimentaría una carga de prueba positiva colocada en un punto, dividida por el valor de dicha carga. Es decir, representa un campo de fuerzas invisibles que rodea a una carga y determina cómo interactuarán otras cargas al acercarse.
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img21.svg", data-aos="zoom-in")
 
@@ -373,26 +373,18 @@
             p.mb-0 Las líneas del campo eléctrico salen de las cargas positivas y entran en las negativas, lo que explica que las cargas del mismo signo se repelan y las de signo opuesto se atraigan. Al representar varios campos simultáneamente, se aplica el principio de superposición, según el cual el campo total es la suma vectorial de los campos generados por cada carga. Por esta razón, las líneas de campo no pueden cruzarse, ya que cada punto del espacio solo puede tener una dirección definida para el campo eléctrico ( IEEE Educational Resourses, 2024)
 
 
-
-
-
     p.mb-4 El campo eléctrico es más intenso en el vacío que en medios materiales, donde las propiedades dieléctricas lo atenúan.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .tarjeta.bg-color-1.p-4.mb-3.br-15
           .row.justify-content-center.align-items-center
-            .col-auto.mx-auto
+            .col-auto.mx-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img02.svg", data-aos="zoom-in")
             .col
               p.mb-0 La intensidad del campo eléctrico expresa cuánta fuerza actúa sobre una carga de prueba positiva en un punto y se mide en newton por coulomb (N/C). Además de explicar fuerzas de atracción y repulsión, este concepto permite predecir trayectorias de partículas, diseñar dispositivos electrónicos, comprender fenómenos electromagnéticos y apoyar aplicaciones en ingeniería, geofísica y procesos industriales.
         
-
-
-
-
-
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
@@ -434,7 +426,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-4.mb-lg-0
-        .tarjeta.bg-color-4.p-3.mb-3
+        .tarjeta.bg-color-4.p-3.mb-3.br-15
           p.mb-0 Cuando se conecta una fuente eléctrica a un circuito, se establece un campo eléctrico dentro del conductor. Este campo actúa sobre los electrones y provoca su movimiento ordenado, lo que llamamos corriente eléctrica.
         
         p.mb-3 El proceso ocurre en tres pasos:
@@ -451,7 +443,7 @@
         
         p.mb-0 Este encadenamiento conceptual es clave para el estudio de la Ley de Ohm y el análisis de circuitos básicos.
 
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3
         figure
           img(src="@/assets/curso/tema1/img22.png", data-aos="zoom-in")
 
@@ -466,13 +458,13 @@
     //-           h3.titulo-con-imagen__texto Relación entre carga, campo y corriente
 
 
-    .bg-full-width.bg-fondo-1.mb-5.p-4.p-lg-5
+    .bg-full-width.bg-fondo-1.mb-2.p-4.p-lg-5
       SlyderA(tipo="b").bg-color-white.p-2.p-lg-4.tarjeta
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.mb-4.mb-lg-0
             h4 Prospección de agua subterránea.
             p.mb-0 Las mediciones del campo eléctrico de los cuerpos de agua subterránea sirven para mapear las características del subsuelo, teniendo en cuenta la variación de la resistividad eléctrica entre el acuífero y la roca almacén.
-          .col-lg-6
+          .col-lg-6.col-md-8
             figure
               img(src='@/assets/curso/tema1/img23.png', alt='Prospección de agua subterránea')
 
@@ -480,7 +472,7 @@
           .col-lg-6.mb-4.mb-lg-0
             h4 Detección de fallas geológicas.
             p.mb-0 Las zonas de fractura en la corteza terrestre, donde se produce el desplazamiento de bloques de roca, poseen sustanciales diferencias en los valores de resistividad eléctrica. Conocer su ubicación y distribución facilita las labores de exploración de recursos minerales y previenen riesgos geológicos, como los terremotos.
-          .col-lg-6
+          .col-lg-6.col-md-8
             figure
               img(src='@/assets/curso/tema1/img24.png', alt='Detección de fallas geológicas')
 
@@ -489,7 +481,7 @@
             h4 Monitoreo de la contaminación de suelos y aguas subterráneas.
             p.mb-3 Los campos eléctricos también se utilizan en la monitorización de la contaminación de suelos y aguas subterráneas. Una vez más, la técnica de resistividad eléctrica ayuda a identificar la distribución y extensión de contaminantes, como productos químicos o metales pesados.
             p.mb-0 Al realizar mediciones de en diferentes puntos de un área contaminada, es posible mapear la distribución espacial de los contaminantes y evaluar su impacto ambiental.
-          .col-lg-6
+          .col-lg-6.col-md-8
             figure
               img(src='@/assets/curso/tema1/img25.png', alt='Monitoreo de la contaminación')
 
@@ -500,13 +492,13 @@
       h2 1.3 Corriente eléctrica: AC y DC
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img26.png", data-aos="zoom-in")
-      .col-lg-9.mb-4.mb-lg-0
-        .bg-color-1.p-4.mb-3
+      .col-lg-9.mb-0.mb-lg-0
+        .bg-color-1.p-4.mb-4.mb-lg-3
           .row
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img26_1.svg", data-aos="zoom-in")
             .col
@@ -520,8 +512,6 @@
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
             h3.titulo-con-imagen__texto ¿Qué es la corriente eléctrica?
-
-
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-4.mb-lg-0
@@ -542,13 +532,13 @@
         .tarjeta.bg-color-4.p-3.mb-0
           p.mb-0 Aunque los electrones avanzan lentamente, la señal eléctrica viaja casi a la velocidad de la luz debido a la interacción colectiva entre las partículas.
 
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3
         figure
           img(src="@/assets/curso/tema1/img27.png", data-aos="zoom-in")
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 La corriente eléctrica puede clasificarse en dos formas principales: 
-      .col-md-8.col-lg-4
+      .col-md-8.col-lg-4.mb-5.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img28.png", data-aos="zoom-in")
       .col-md-12.col-lg-8
@@ -591,7 +581,7 @@
                     i.fas.fa-circle-right.bg-color-17
                     | Se utiliza en hogares, industrias y redes de distribución.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 5.
@@ -672,7 +662,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .row.align-items-center
-          .col-lg-auto.mb-lg-0
+          .col-lg-auto.mb-lg-0.mb-4
             img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
           .col-lg
             p.mb-0 Las magnitudes eléctricas básicas constituyen el lenguaje fundamental con el que se describen y analizan los circuitos eléctricos. Comprender qué es el voltaje, cómo mide la corriente, por qué existe la resistencia en los materiales y de qué manera se calcula la potencia permite interpretar mediciones, diseñar circuitos funcionales y prever el comportamiento de un sistema eléctrico. Estas magnitudes se relacionan entre sí mediante leyes universales como la Ley de Ohm, lo que facilita el análisis matemático y experimental. En este apartado, el aprendiz podrá identificar estas magnitudes, entender su propósito y aplicarlas en situaciones reales de trabajo.
@@ -685,11 +675,11 @@
             h3.titulo-con-imagen__texto Tensión o voltaje (V)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img31.svg", data-aos="zoom-in")
       .col-lg-9.mb-4.mb-lg-0
-        .tarjeta.bg-color-4.p-3.mb-3
+        .tarjeta.bg-color-4.p-3.mb-3.br-15
           p.mb-0 En el Sistema Internacional (SI), la unidad de carga es el coulomb (C). Esta unidad permite cuantificar de forma práctica la cantidad de carga que se desplaza en un conductor.
 
         .lista-ul.mb-3
@@ -729,7 +719,7 @@
             h3.titulo-con-imagen__texto Corriente eléctrica (I)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img33.svg", data-aos="zoom-in")
       .col-lg-9.mb-4.mb-lg-0
@@ -756,7 +746,7 @@
             h3.titulo-con-imagen__texto Resistencia eléctrica (R)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img34.svg", data-aos="zoom-in")
       .col-lg-9.mb-4.mb-lg-0
@@ -797,7 +787,7 @@
             h3.titulo-con-imagen__texto Potencia eléctrica ( P )
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-4.col-lg-3
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img35.svg", data-aos="zoom-in")
       .col-lg-9.mb-4.mb-lg-0

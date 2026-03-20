@@ -7,8 +7,8 @@
         span 5
       h1 Análisis de parámetros eléctricos
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-4.col-lg-4.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0.mx-auto
         figure
           img(src="@/assets/curso/tema5/img01.png", data-aos="zoom-in")
 
@@ -79,7 +79,7 @@
 
     p.mb-4 Esta ley permite calcular cuánto voltaje, corriente o resistencia existe en un circuito.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -99,13 +99,14 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.2 Ley de Watt      
 
-    p.mb-4 La ley que relaciona potencia con tensión y corriente lleva el apellido del ingeniero escocés James Watt, célebre por perfeccionar la máquina de vapor en el siglo XVIII. Aunque su trabajo no se centró en electricidad, sus estudios sobre energía, trabajo y eficiencia permitieron establecer la unidad vatio (W) en su honor. Posteriormente, los desarrollos de Ohm, Joule y otros científicos integraron sus conceptos, dando forma a la expresión actual de la potencia eléctrica.
+    p.mb-5.mb-lg-4 La ley que relaciona potencia con tensión y corriente lleva el apellido del ingeniero escocés James Watt, célebre por perfeccionar la máquina de vapor en el siglo XVIII. Aunque su trabajo no se centró en electricidad, sus estudios sobre energía, trabajo y eficiencia permitieron establecer la unidad vatio (W) en su honor. Posteriormente, los desarrollos de Ohm, Joule y otros científicos integraron sus conceptos, dando forma a la expresión actual de la potencia eléctrica.
+    
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-4.col-md-6.col-12.mb-2.mb-xl-0.order-3.order-lg-1
         figure
           img(src="@/assets/curso/tema5/img05.png", alt="Principio 3")
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-1.order-lg-2
         .tarjeta.box-shadow.p-0.h-100
           figure
             img(src="@/assets/curso/tema5/img06.svg", alt="Principio 1")
@@ -121,7 +122,7 @@
                 | La corriente que circula a través de él.
             p.mb-0 La relación se expresa así: P = V × I
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-2.order-lg-3
         .tarjeta.box-shadow.p-0.h-100
           figure
             img(src="@/assets/curso/tema5/img07.svg", alt="Principio 2")
@@ -136,7 +137,7 @@
         .tarjeta.bg-color-4.p-3.mb-0
           p.mb-0 Comprender este concepto es importante para conocer el consumo eléctrico de los equipos, calcular la carga de un circuito y evitar sobrecargas en los tableros eléctricos.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -172,7 +173,7 @@
 
     p.mb-4 Estas leyes se basan en dos ideas simples: la corriente se reparte y el voltaje se distribuye.
 
-    .row.align-items-center.mb-5
+    .row.justify-content-center.mb-3.mb-lg-3
       .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .tarjeta.box-shadow.p-0.h-100
           figure
@@ -218,11 +219,11 @@
 
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .tarjeta.bg-color-1.p-4
+        .bg-color-1.p-4.bg-tarjeta.mb-3
           .row
             .col
               p.mb-0 En la formación técnica en electricidad, los simuladores de circuitos eléctricos se han convertido en herramientas fundamentales para el aprendizaje práctico, especialmente en entornos de formación virtual o cuando no se dispone de laboratorios físicos. Estas plataformas permiten construir circuitos, conectar componentes y realizar mediciones de voltaje, corriente y potencia en condiciones controladas. De esta manera, el aprendiz puede comprobar de forma experimental cómo se comportan las variables eléctricas al aplicar principios como la Ley de Ohm, la Ley de Watt y las Leyes de Kirchhoff, observando directamente los resultados en instrumentos virtuales como voltímetros o amperímetros. Este tipo de interacción facilita la comprensión de los conceptos, ya que el estudiante puede modificar valores de resistencias, fuentes de voltaje o configuraciones de conexión y analizar inmediatamente los cambios que se producen en el circuito.
-            .col-auto
+            .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/curso/tema5/img10.png", data-aos="zoom-in")
 
@@ -260,7 +261,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-2
-      .col-lg-9
+      .col-lg-9.mb-4.mb-lg-0.order-2.order-lg-1
         .row.align-items-center.mb-3
           .col-lg-auto.mb-lg-0
             img.d-none.d-lg-flex(src="@/assets/curso/tema5/img11.svg", style="").mx-auto
@@ -270,7 +271,7 @@
           
         .tarjeta.bg-color-4.p-4.mb-0
           p.mb-0 Este proceso de prueba y análisis fortalece la relación entre teoría y práctica, lo cual es esencial en programas de formación técnica como los relacionados con el diseño y construcción de tableros de distribución eléctrica. Diversos autores en educación tecnológica destacan que las simulaciones digitales permiten visualizar fenómenos eléctricos de forma dinámica, facilitando la comprensión de principios que a veces resultan abstractos cuando solo se presentan de manera teórica (Alexander & Sadiku, 2017; Floyd, 2018).
-      .col-lg-3
+      .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema5/img12.png", data-aos="zoom-in")
 

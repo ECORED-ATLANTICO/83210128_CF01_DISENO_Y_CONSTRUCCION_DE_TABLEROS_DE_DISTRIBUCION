@@ -7,7 +7,7 @@
         span 4
       h1 Métodos de conexionado eléctrico
 
-    .container.justify-content-center.mb-5
+    .container.justify-content-center.mb-3
       .col-md-12.col-lg-12
         .tarjeta.row.justify-content-center.align-items-center.bg-color-4
           .col-lg-5.mb-3.mb-lg-0.ps-0
@@ -22,7 +22,7 @@
       h2 4.1 Circuitos en serie
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
           img(src="@/assets/curso/tema4/Grupo 1212887.svg", data-aos="zoom-in")
       .col-lg-8
@@ -46,11 +46,11 @@
             i.fas.fa-circle-right.bg-color-17
             | Si uno de los componentes se interrumpe o falla, todo el circuito deja de funcionar.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
-        .bg-color-1.p-4.brd--rad
+        .bg-color-1.p-4.brd--rad.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema4/Grupo 1212638.svg", style="width: 70px").mx-auto
             .col
@@ -63,7 +63,7 @@
       h2 4.2 Circuitos en paralelo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
           img(src="@/assets/curso/tema4/Grupo 1212889.svg", data-aos="zoom-in")
       .col-lg-8
@@ -87,11 +87,11 @@
             i.fas.fa-circle-right.bg-color-17
             | Si un componente falla, los demás continúan funcionando.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
-        .bg-color-1.p-4.brd--rad
+        .bg-color-4.p-4.brd--rad.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema4/Grupo 1212636.svg", style="width: 70px").mx-auto
             .col
@@ -104,7 +104,7 @@
       h2 4.3 Sistemas mixtos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
           img(src="@/assets/curso/tema4/Grupo 1212124.svg", data-aos="zoom-in")
       .col-lg-8
@@ -130,16 +130,16 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        .bg-color-1.p-4.brd--rad
+        .bg-color-1.p-4.brd--rad.br-15
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema4/Grupo 1212128.svg", style="width: 70px").mx-auto
             .col
               p.mb-1 <strong>Ejemplo aplicado</strong>
               p.mb-0 En los tableros eléctricos, los circuitos mixtos pueden presentarse cuando algunos dispositivos de protección o control se conectan en serie con la línea principal, mientras que las cargas se distribuyen en paralelo hacia diferentes circuitos derivados.
    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -180,7 +180,7 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | 5. Revisar anotaciones como: Calibres, Referencias, Valores nominales, Códigos de colores.
-          .col-lg-4
+          .col-lg-4.col-md-8.mx-auto
             figure
               img(src='@/assets/curso/tema4/Grupo 1212890.png', alt='Interpretación de diagramas')
 
@@ -200,7 +200,7 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | 4. Esquema de control: usado para automatización y maniobra.
-          .col-lg-4
+          .col-lg-4.col-md-8.mx-auto
             figure
               img(src='@/assets/curso/tema4/Grupo 1212632.png', alt='Tipos de diagramas')
 

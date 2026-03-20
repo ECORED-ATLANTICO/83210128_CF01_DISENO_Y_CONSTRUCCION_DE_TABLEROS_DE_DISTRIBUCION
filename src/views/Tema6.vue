@@ -47,7 +47,7 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | La resistencia total es la suma de todas las resistencias.
-          .col-lg-5
+          .col-lg-5.col-md-8
             figure
               img(src='@/assets/curso/tema6/img03.png', alt='Circuitos en serie')
 
@@ -66,7 +66,7 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | La resistencia total siempre es menor que la resistencia más pequeña.
-          .col-lg-5
+          .col-lg-5.col-md-8
             figure
               img(src='@/assets/curso/tema6/img04.png', alt='Circuitos en paralelo')
 
@@ -91,7 +91,7 @@
               li
                 i.fas.fa-circle-right.bg-color-17
                 | Repetir el proceso hasta obtener la resistencia total.
-          .col-lg-5
+          .col-lg-5.col-md-8
             figure
               img(src='@/assets/curso/tema6/img05.png', alt='Circuito mixto')
 
@@ -104,16 +104,16 @@
 
     p.mb-4 En el análisis de circuitos eléctricos es fundamental calcular tres parámetros básicos: tensión (voltaje), corriente y potencia, ya que estos permiten comprender cómo se distribuye la energía dentro de un sistema eléctrico. El voltaje representa la fuerza que impulsa a los electrones a moverse por un conductor, la corriente corresponde al flujo de electrones que circula por el circuito, y la potencia indica cuánta energía eléctrica consume o transforma un dispositivo durante su funcionamiento. Estos parámetros se relacionan mediante principios como la Ley de Ohm y la Ley de Watt, que permiten realizar cálculos básicos en el diseño y análisis de circuitos eléctricos (Floyd, 2018).
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-6.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema6/img06.svg", alt="Tensión, corriente y potencia")
 
       .col-lg-6
-        .tarjeta.bg-color-1.p-3.mb-3
+        .tarjeta.bg-color-1.p-3.mb-4.br-15
           p.mb-0 En aplicaciones prácticas, como el análisis de circuitos en un tablero de distribución, estos cálculos permiten determinar si un circuito puede alimentar correctamente una carga sin provocar sobrecargas o fallas. 
 
-        .tarjeta.bg-color-4.p-3.mb-3
+        .tarjeta.bg-color-4.p-3.mb-4.br-15
           p.mb-0 Por ejemplo, si una lámpara funciona con 120 V y consume 0.5 A, la potencia que utiliza puede calcularse mediante la fórmula P = V × I, lo que da como resultado 60 W. 
 
         .bloque-texto-b.color-1.p-4(data-aos="fade-up").mb-0
@@ -134,7 +134,7 @@
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        .tarjeta.bg-color-4.p-3.mb-3
+        .tarjeta.bg-color-4.p-3.mb-3.br-15
           .row.justify-content-center.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
@@ -157,7 +157,7 @@
                   | Sobrecarga de corriente.
 
       .col-lg-6
-        .tarjeta.bg-color-1.p-3.mb-3
+        .tarjeta.bg-color-1.p-3.mb-3.br-15
           .row.justify-content-center.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
@@ -181,7 +181,7 @@
 
         
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.col-md-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema6/img09.png", alt="Pérdidas y consideraciones básicas de diseño")
 
@@ -216,7 +216,7 @@
                 td Tipo de carga.
                 td Determina el consumo de energía.
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .row.mb-0
           .col-lg-auto.mb-lg-0
@@ -247,9 +247,9 @@
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.4 Comparación entre valores teóricos y medidos 
    
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .tarjeta.bg-color-4.p-3.mb-3.h-100
+    .row.justify-content-center.mb-2.mb-lg-5
+      .col-lg-6.mb-4.mb-lg-0
+        .tarjeta.bg-color-4.p-3.mb-3.br-15.h-100
           .row.justify-content-center.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
@@ -268,8 +268,8 @@
                   i.fas.fa-circle-right.bg-color-17
                   | Precisión de instrumentos.
 
-      .col-lg-6
-        .tarjeta.bg-color-1.p-3.mb-3.h-100
+      .col-lg-6.mb-4.mb-lg-0
+        .tarjeta.bg-color-1.p-3.mb-3.br-15.h-100
           .row.justify-content-center.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure
@@ -279,12 +279,12 @@
         
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0
         p.mb-4 En el estudio de circuitos eléctricos es común realizar cálculos teóricos para estimar valores de voltaje, corriente y potencia. Sin embargo, cuando estos circuitos se analizan en la práctica —ya sea mediante simuladores o mediciones con instrumentos— los resultados pueden presentar pequeñas diferencias. Esto ocurre porque los modelos teóricos suelen considerar condiciones ideales, mientras que en los sistemas reales existen factores como resistencias internas, tolerancias de componentes o pérdidas en los conductores (Alexander & Sadiku, 2017).
         .tarjeta.bg-color-4.p-3.mb-0
           p.mb-0 La comparación entre valores teóricos y valores medidos es una práctica importante en la formación técnica, ya que permite desarrollar habilidades de análisis, verificación y validación de resultados. Por ejemplo, si el cálculo teórico indica que la corriente en un circuito debe ser 2 A, pero el simulador muestra 1.9 A, esta diferencia puede deberse a tolerancias en los componentes o a la precisión del instrumento de medición. Analizar estas diferencias ayuda al aprendiz a comprender mejor el comportamiento real de los circuitos eléctricos y a mejorar la interpretación de resultados en aplicaciones prácticas (Nilsson & Riedel, 2019).
 
-      .col-lg-4
+      .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema6/img10.png", alt="Pérdidas y consideraciones básicas de diseño")
 

@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .row.align-items-center
-          .col-lg-4.d-none.d-lg-flex
+          .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
             figure
               img(src="@/assets/curso/tema3/Grupo 1212885.png", data-aos="zoom-in")
           .col-lg-8
@@ -85,44 +85,46 @@
                     i.fas.fa-circle-right.bg-color-17
                     | Sirve para comprobar continuidad y estado de componentes.
 
-    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 9. 
-      span Instrumentos y variables medidas
-    .tabla-a.color-acento-contenido.mb-5
-      table
-        thead
-          tr
-            th Instrumento
-            th Variable medida
-            th Tipo de conexión
-            th Precauciones
-        tbody
-          tr
-            td Multímetro.
-            td V, I, R.
-            td Serie/Paralelo.
-            td Elegir el rango adecuado.
-          tr
-            td Voltímetro.
-            td Tensión.
-            td Paralelo.
-            td No sobrepasar límite de voltaje.
-          tr
-            td Amperímetro.
-            td Corriente.
-            td Serie.
-            td No superar corriente nominal.
-          tr
-            td Pinza amperimétrica.
-            td Corriente AC/DC.
-            td Sin abrir circuito.
-            td Encerrar solo un conductor.
-          tr
-            td Óhmetro.
-            td Resistencia.
-            td Sin energía.
-            td No usar en circuitos energizados.
-      figcaption <strong>Fuente:</strong> SENA, 2026.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
+          h5 Tabla 9. 
+          span Instrumentos y variables medidas
+        .tabla-a.color-acento-contenido.mb-0
+          table
+            thead
+              tr
+                th Instrumento
+                th Variable medida
+                th Tipo de conexión
+                th Precauciones
+            tbody
+              tr
+                td Multímetro.
+                td V, I, R.
+                td Serie/Paralelo.
+                td Elegir el rango adecuado.
+              tr
+                td Voltímetro.
+                td Tensión.
+                td Paralelo.
+                td No sobrepasar límite de voltaje.
+              tr
+                td Amperímetro.
+                td Corriente.
+                td Serie.
+                td No superar corriente nominal.
+              tr
+                td Pinza amperimétrica.
+                td Corriente AC/DC.
+                td Sin abrir circuito.
+                td Encerrar solo un conductor.
+              tr
+                td Óhmetro.
+                td Resistencia.
+                td Sin energía.
+                td No usar en circuitos energizados.
+          figcaption <strong>Fuente:</strong> SENA, 2026.
 
     separador
 
@@ -133,13 +135,13 @@
 
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-md-8.col-lg-3.mb-3.mb-lg-0
+      .col-md-8.col-lg-3.mb-4.mb-lg-0.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/tema3/Grupo 1212886.png", data-aos="zoom-in")
       .col-lg-9
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-11")
           .row.justify-content-center.align-items-center(titulo="Medición de tensión (Voltaje)")
-            .col-lg-7
+            .col-lg-7.col-md-12.mb-4.mb-lg-0
               h5 Procedimiento:
               ul.lista-ul
                 li
@@ -163,12 +165,12 @@
                 li
                   i.fas.fa-circle-right.bg-color-17
                   | Conectar en serie (incorrecto).
-            .col-lg-5
+            .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema3/Grupo 1212887.png", data-aos="zoom-in")
 
           .row.justify-content-center.align-items-center(titulo="Medición de corriente")
-            .col-lg-7
+            .col-lg-7.col-md-12.mb-4.mb-lg-0
               h5 Procedimiento:
               ul.lista-ul
                 li
@@ -192,12 +194,12 @@
                 li
                   i.fas.fa-circle-right.bg-color-17
                   | Asegurar que el rango sea superior a la corriente esperada.
-            .col-lg-5
+            .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema3/Grupo 1212889.png", data-aos="zoom-in")
 
           .row.justify-content-center.align-items-center(titulo="Medición de resistencia")
-            .col-lg-7
+            .col-lg-7.col-md-12.mb-4.mb-lg-0
               h5 Procedimiento:
               ul.lista-ul
                 li
@@ -221,7 +223,7 @@
                 li
                   i.fas.fa-circle-right.bg-color-17
                   | Evitar tocar las puntas con las manos.
-            .col-lg-5
+            .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema3/Grupo 1212888.png", data-aos="zoom-in")
 
@@ -247,11 +249,11 @@
     
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3
+        .bg-color-1.p-4.bg-tarjeta.mb-3
           .row
             .col
               p.mb-0 Las magnitudes eléctricas se expresan en unidades del Sistema Internacional: voltios (V), amperios (A) y ohmios (Ω). Los multímetros emplean rangos y prefijos como m, k y M para representar valores pequeños o grandes, por lo que es importante interpretarlos correctamente. En equipos de rango manual, se recomienda iniciar en el valor más alto e ir disminuyendo hasta obtener una lectura estable. Los multímetros auto-rango seleccionan el rango automáticamente, pero siempre debes elegir la función adecuada (V, A, Ω) y el tipo de corriente AC o DC. Algunas funciones adicionales como frecuencia (Hz), continuidad o capacitancia (F) amplían la capacidad de diagnóstico del equipo.
-            .col-auto
+            .col-auto.d-none.d-lg-flex
               figure
                 img(src="@/assets/curso/tema3/Grupo 1211828.svg", data-aos="zoom-in")
 
