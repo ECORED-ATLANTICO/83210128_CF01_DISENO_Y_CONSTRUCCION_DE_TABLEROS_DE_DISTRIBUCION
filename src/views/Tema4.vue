@@ -12,7 +12,7 @@
         .tarjeta.row.justify-content-center.align-items-center.bg-color-4
           .col-lg-5.mb-3.mb-lg-0.ps-0
             figure
-              img(src="@/assets/curso/tema4/Grupo 1212885.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema4/img01.png", data-aos="zoom-in")
           .col-lg-7.p-3
             p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
             
@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
-          img(src="@/assets/curso/tema4/Grupo 1212887.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/img02.svg", data-aos="zoom-in")
       .col-lg-8
         .row.align-items-center.mb-2
           .col-lg-auto.mb-lg-0
@@ -52,7 +52,7 @@
           .row.align-items-center
             .col-auto.d-none.d-md-flex
               figure
-                img(src="@/assets/curso/tema4/Grupo 1212638.svg", style="width: 70px").mx-auto
+                img(src="@/assets/curso/tema4/img03.svg", style="width: 70px").mx-auto
             .col
               p.mb-1 <strong>Ejemplo aplicado</strong>
               p.mb-0 Un ejemplo sencillo de circuito en serie puede observarse en luces decorativas o cadenas de bombillos antiguos, donde si un bombillo se daña, todos los demás dejan de encender. Aunque este tipo de conexión es útil en algunos casos específicos, no es la forma más utilizada en sistemas de distribución eléctrica, debido a que una falla afecta a todos los elementos conectados.
@@ -65,7 +65,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
-          img(src="@/assets/curso/tema4/Grupo 1212889.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/img04.svg", data-aos="zoom-in")
       .col-lg-8
         .row.align-items-center.mb-2
           .col-lg-auto.mb-lg-0
@@ -93,7 +93,7 @@
           .row.align-items-center
             .col-auto.d-none.d-md-flex
               figure
-                img(src="@/assets/curso/tema4/Grupo 1212636.svg", style="width: 70px").mx-auto
+                img(src="@/assets/curso/tema4/img05.svg", style="width: 70px").mx-auto
             .col
               p.mb-1 <strong>Ejemplo aplicado</strong>
               p.mb-0 Este tipo de conexión es el más utilizado en instalaciones eléctricas residenciales, comerciales e industriales, así como en los tableros de distribución, ya que permite alimentar varios circuitos de forma independiente sin afectar el funcionamiento de los demás.
@@ -106,7 +106,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
         figure
-          img(src="@/assets/curso/tema4/Grupo 1212124.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema4/img06.svg", data-aos="zoom-in")
       .col-lg-8
         .row.align-items-center.mb-2
           .col-lg-auto.mb-lg-0
@@ -134,7 +134,7 @@
           .row.align-items-center
             .col-auto.d-none.d-md-flex
               figure
-                img(src="@/assets/curso/tema4/Grupo 1212128.svg", style="width: 70px").mx-auto
+                img(src="@/assets/curso/tema4/img07.svg", style="width: 70px").mx-auto
             .col
               p.mb-1 <strong>Ejemplo aplicado</strong>
               p.mb-0 En los tableros eléctricos, los circuitos mixtos pueden presentarse cuando algunos dispositivos de protección o control se conectan en serie con la línea principal, mientras que las cargas se distribuyen en paralelo hacia diferentes circuitos derivados.
@@ -182,7 +182,7 @@
                 | 5. Revisar anotaciones como: Calibres, Referencias, Valores nominales, Códigos de colores.
           .col-lg-4.col-md-8.mx-auto
             figure
-              img(src='@/assets/curso/tema4/Grupo 1212890.png', alt='Interpretación de diagramas')
+              img(src='@/assets/curso/tema4/img08.png', alt='Interpretación de diagramas')
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.mb-4.mb-lg-0
@@ -202,7 +202,7 @@
                 | 4. Esquema de control: usado para automatización y maniobra.
           .col-lg-4.col-md-8.mx-auto
             figure
-              img(src='@/assets/curso/tema4/Grupo 1212632.png', alt='Tipos de diagramas')
+              img(src='@/assets/curso/tema4/img09.png', alt='Tipos de diagramas')
 
 
     .row.justify-content-center.align-items-center.mb-0

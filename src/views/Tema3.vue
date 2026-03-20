@@ -26,7 +26,7 @@
         .row.align-items-center
           .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
             figure
-              img(src="@/assets/curso/tema3/Grupo 1212885.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
           .col-lg-8
             SlyderF(columnas="col-12 col-md-6")
               .tarjeta.bg-color-white.p-4.h-100.box-shadow
@@ -137,7 +137,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-md-8.col-lg-3.mb-4.mb-lg-0.d-none.d-lg-flex
         figure
-          img(src="@/assets/curso/tema3/Grupo 1212886.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
       .col-lg-9
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-11")
           .row.justify-content-center.align-items-center(titulo="Medición de tensión (Voltaje)")
@@ -167,7 +167,7 @@
                   | Conectar en serie (incorrecto).
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212887.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img04.png", data-aos="zoom-in")
 
           .row.justify-content-center.align-items-center(titulo="Medición de corriente")
             .col-lg-7.col-md-12.mb-4.mb-lg-0
@@ -196,7 +196,7 @@
                   | Asegurar que el rango sea superior a la corriente esperada.
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212889.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img05.png", data-aos="zoom-in")
 
           .row.justify-content-center.align-items-center(titulo="Medición de resistencia")
             .col-lg-7.col-md-12.mb-4.mb-lg-0
@@ -225,7 +225,7 @@
                   | Evitar tocar las puntas con las manos.
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212888.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img06.png", data-aos="zoom-in")
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10.mb-5
@@ -255,7 +255,7 @@
               p.mb-0 Las magnitudes eléctricas se expresan en unidades del Sistema Internacional: voltios (V), amperios (A) y ohmios (Ω). Los multímetros emplean rangos y prefijos como m, k y M para representar valores pequeños o grandes, por lo que es importante interpretarlos correctamente. En equipos de rango manual, se recomienda iniciar en el valor más alto e ir disminuyendo hasta obtener una lectura estable. Los multímetros auto-rango seleccionan el rango automáticamente, pero siempre debes elegir la función adecuada (V, A, Ω) y el tipo de corriente AC o DC. Algunas funciones adicionales como frecuencia (Hz), continuidad o capacitancia (F) amplían la capacidad de diagnóstico del equipo.
             .col-auto.d-none.d-lg-flex
               figure
-                img(src="@/assets/curso/tema3/Grupo 1211828.svg", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img07.svg", data-aos="zoom-in")
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 10. 
@@ -306,7 +306,7 @@
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema3/Grupo 1210295.svg")
+              img(src="@/assets/curso/tema3/img08.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -338,12 +338,12 @@
         //- h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
         .avatar
           figure
-            img(src="@/assets/curso/tema3/Grupo 1212113.svg", alt="alt").img250
+            img(src="@/assets/curso/tema3/img09.svg", alt="alt").img250
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212890.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/img10.svg", alt="alt").img100
             .col
               h5.text-dark Desconectar, corte visible o efectivo
               p Algo básico pero importante, antes de realizar cualquier trabajo eléctrico, es desconectar todas las posibles alimentaciones a la línea. El corte visible es cuando puede comprobar visualmente usted mismo los contactos abiertos, y el corte efectivo es cuando el mismo equipo tiene indicadores de la posición de los contactos, para cerciorarse.
@@ -351,7 +351,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212891.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/img11.svg", alt="alt").img100
             .col
               h5.text-dark Prevenir realimentación
               p Debe advertirse a otros trabajadores que se ha realizado el corte y el dispositivo está enclavado y así evitar reconexiones accidentales.
@@ -359,7 +359,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212892.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/img12.svg", alt="alt").img100
             .col
               h5.text-dark Comprobación de la ausencia de tensión
               p Siempre debe comprobar la ausencia de tensión antes de iniciar cualquier trabajo, empleando los procesos y equipos de medida apropiados.
@@ -367,7 +367,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212893.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/img13.svg", alt="alt").img100
             .col
               h5.text-dark Puesta a tierra y en cortocircuito
               p Este paso es especialmente importante, ya que creará una zona de seguridad virtual alrededor de la zona de trabajo.
@@ -375,7 +375,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/tema3/Grupo 1212894.svg", alt="alt").img100
+                img(src="@/assets/curso/tema3/img14.svg", alt="alt").img100
             .col
               h5.text-dark Señalización de la zona de trabajo
               p Importante en todo trabajo, señalizar muy bien la zona a intervenir para minimizar riesgos y accidentes.
