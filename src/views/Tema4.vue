@@ -7,19 +7,20 @@
         span 4
       h1 Métodos de conexionado eléctrico
 
-    .container.justify-content-center.mb-3
-      .col-md-12.col-lg-12
-        .tarjeta.row.justify-content-center.align-items-center.bg-color-4
-          .col-lg-5.mb-3.mb-lg-0.ps-0
-            figure
-              img(src="@/assets/curso/tema4/img01.png", data-aos="zoom-in")
-          .col-lg-7.p-3
-            p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
-            
-    separador
+    .bg-full-width.bg-fondo-2
+      .container.justify-content-center.mb-3
+        .col-md-12.col-lg-12
+          .tarjeta.row.justify-content-center.align-items-center.bg-color-4
+            .col-lg-5.mb-3.mb-lg-0.ps-0
+              figure
+                img(src="@/assets/curso/tema4/img01.png", data-aos="zoom-in")
+            .col-lg-7.p-3
+              p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
+              
+      separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Circuitos en serie
+      #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.1 Circuitos en serie
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
@@ -102,57 +103,59 @@
 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.3 Sistemas mixtos
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
-        figure
-          img(src="@/assets/curso/tema4/img06.svg", data-aos="zoom-in")
-      .col-lg-8
-        .row.align-items-center.mb-2
-          .col-lg-auto.mb-lg-0
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 Los circuitos mixtos combinan conexiones en serie y en paralelo dentro de un mismo sistema eléctrico. Este tipo de configuración es común en sistemas eléctricos reales, donde diferentes dispositivos o cargas requieren distintos tipos de conexión para cumplir funciones específicas.
-        p.mb-3 <strong>Características principales:</strong>
-        ul.lista-ul.mb-0
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Integran secciones del circuito en serie y en paralelo.
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Permiten mayor flexibilidad en el diseño de circuitos eléctricos.
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Son frecuentes en instalaciones eléctricas complejas.
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Requieren un análisis más detallado para el cálculo de sus parámetros eléctricos.
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .bg-color-1.p-4.brd--rad.br-15
-          .row.align-items-center
-            .col-auto.d-none.d-md-flex
-              figure
-                img(src="@/assets/curso/tema4/img07.svg", style="width: 70px").mx-auto
-            .col
-              p.mb-1 <strong>Ejemplo aplicado</strong>
-              p.mb-0 En los tableros eléctricos, los circuitos mixtos pueden presentarse cuando algunos dispositivos de protección o control se conectan en serie con la línea principal, mientras que las cargas se distribuyen en paralelo hacia diferentes circuitos derivados.
    
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/img12.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Con el objetivo de ampliar los conceptos sobre los diferentes tipos de circuitos eléctricos, lo invitamos a consultar el siguiente enlace de video:
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/" target="_blank")
-                    span Enlace
-                    i.fas.fa-link
+    .bg-full-width.bg-fondo-2
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
+          figure
+            img(src="@/assets/curso/tema4/img06.svg", data-aos="zoom-in")
+        .col-lg-8
+          .row.align-items-center.mb-2
+            .col-lg-auto.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 Los circuitos mixtos combinan conexiones en serie y en paralelo dentro de un mismo sistema eléctrico. Este tipo de configuración es común en sistemas eléctricos reales, donde diferentes dispositivos o cargas requieren distintos tipos de conexión para cumplir funciones específicas.
+          p.mb-3 <strong>Características principales:</strong>
+          ul.lista-ul.mb-0
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Integran secciones del circuito en serie y en paralelo.
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Permiten mayor flexibilidad en el diseño de circuitos eléctricos.
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Son frecuentes en instalaciones eléctricas complejas.
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Requieren un análisis más detallado para el cálculo de sus parámetros eléctricos.
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .bg-color-1.p-4.brd--rad.br-15
+            .row.align-items-center
+              .col-auto.d-none.d-md-flex
+                figure
+                  img(src="@/assets/curso/tema4/img07.svg", style="width: 70px").mx-auto
+              .col
+                p.mb-1 <strong>Ejemplo aplicado</strong>
+                p.mb-0 En los tableros eléctricos, los circuitos mixtos pueden presentarse cuando algunos dispositivos de protección o control se conectan en serie con la línea principal, mientras que las cargas se distribuyen en paralelo hacia diferentes circuitos derivados.
+    
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-10
+          .tarjeta.color-primario.p-3
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/tema1/img12.svg")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.mb-0 Con el objetivo de ampliar los conceptos sobre los diferentes tipos de circuitos eléctricos, lo invitamos a consultar el siguiente enlace de video:
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=MRXLmI6Bg4k" target="_blank")
+                      span Enlace
+                      i.fas.fa-link
     
     separador
 
@@ -167,19 +170,35 @@
             ul.lista-ul.mb-0
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 1. Identificar símbolos de componentes: resistencias, fuentes, interruptores, protecciones, conductores.
+                | Identificar símbolos de componentes: resistencias, fuentes, interruptores, protecciones, conductores.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 2. Reconocer sentido de corriente (convencional o electrónico).
+                | Reconocer sentido de corriente (convencional o electrónico).
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 3. Observar nodos y uniones entre conductores.
+                | Observar nodos y uniones entre conductores.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 4. Interpretar ramas, caminos, y puntos de medición.
+                | Interpretar ramas, caminos, y puntos de medición.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 5. Revisar anotaciones como: Calibres, Referencias, Valores nominales, Códigos de colores.
+                | Revisar anotaciones como: 
+              
+              li
+                ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    | Calibres
+                  li 
+                    i.lista-ul__vineta
+                    | Referencias
+                  li 
+                    i.lista-ul__vineta
+                    | Valores nominales
+                  li 
+                    i.lista-ul__vineta
+                    | Códigos de colores
+
           .col-lg-4.col-md-8.mx-auto
             figure
               img(src='@/assets/curso/tema4/img08.png', alt='Interpretación de diagramas')
@@ -190,16 +209,16 @@
             ul.lista-ul.mb-0
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 1. Diagrama unifilar: representación simplificada con una sola línea por circuito.
+                | Diagrama unifilar: representación simplificada con una sola línea por circuito.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 2. Diagrama multifilar: muestra cada conductor individual.
+                | Diagrama multifilar: muestra cada conductor individual.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 3. Esquema funcional: resalta la lógica de funcionamiento del sistema.
+                | Esquema funcional: resalta la lógica de funcionamiento del sistema.
               li
                 i.fas.fa-circle-right.bg-color-17
-                | 4. Esquema de control: usado para automatización y maniobra.
+                | Esquema de control: usado para automatización y maniobra.
           .col-lg-4.col-md-8.mx-auto
             figure
               img(src='@/assets/curso/tema4/img09.png', alt='Tipos de diagramas')
@@ -208,7 +227,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 11.
+          h5.text-bold Tabla 11.
           span Ejemplos básicos de simbología eléctrica
         .tabla-a.color-acento-contenido.mb-0
           table

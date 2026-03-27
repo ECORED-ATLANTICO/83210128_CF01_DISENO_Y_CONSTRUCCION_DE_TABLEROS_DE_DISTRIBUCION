@@ -7,35 +7,35 @@
         span 2
       h1 Material y componentes eléctricos
 
-      
-    .container.justify-content-center.mb-3
-      .col-md-12.col-lg-12
-        .tarjeta.row.justify-content-center.align-items-center.bg-color-4
-          .col-lg-5.mb-3.mb-lg-0.ps-0
-            figure
-              img(src="@/assets/curso/tema2/img01.png", data-aos="zoom-in")
-          .col-lg-7.p-3
-            p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
-            .row.align-items-center
-              .col-auto.mb-4.mb-lg-0
-                img.d-lg-flex.d-none(src="@/assets/curso/tema2/img02.svg").mx-auto
-              .col-lg
-                p.mb-0 Comprender estos elementos posibilita al aprendiz interpretar esquemas eléctricos, seleccionar adecuadamente componentes en proyectos reales y aplicar buenas prácticas de instalación.
+    .bg-full-width.bg-fondo-2
+      .container.justify-content-center.mb-3
+        .col-md-12.col-lg-12
+          .tarjeta.row.justify-content-center.align-items-center.bg-color-4
+            .col-lg-5.mb-3.mb-lg-0.ps-0
+              figure
+                img(src="@/assets/curso/tema2/img01.png", data-aos="zoom-in")
+            .col-lg-7.p-3
+              p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
+              .row.align-items-center
+                .col-auto.mb-4.mb-lg-0
+                  img.d-lg-flex.d-none(src="@/assets/curso/tema2/img02.svg").mx-auto
+                .col-lg
+                  p.mb-0 Comprender estos elementos posibilita al aprendiz interpretar esquemas eléctricos, seleccionar adecuadamente componentes en proyectos reales y aplicar buenas prácticas de instalación.
 
-    separador
-
-
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1 Conductores, semiconductores y aislantes
+      separador
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-auto.mb-lg-0
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 Los materiales pueden clasificarse según su capacidad para permitir o impedir el movimiento de electrones. Esta clasificación es esencial para el diseño y análisis de sistemas eléctricos, pues determina qué elementos se emplean para conducir corriente, cuáles se usan en dispositivos de control y cuáles sirven como barreras de seguridad.
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.1 Conductores, semiconductores y aislantes
+
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-auto.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 Los materiales pueden clasificarse según su capacidad para permitir o impedir el movimiento de electrones. Esta clasificación es esencial para el diseño y análisis de sistemas eléctricos, pues determina qué elementos se emplean para conducir corriente, cuáles se usan en dispositivos de control y cuáles sirven como barreras de seguridad.
 
 
     .bg-full-width.bg-fondo-1.mb-5.p-4.p-lg-5
@@ -151,7 +151,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 7.
+          h5.text-bold Tabla 7.
           span Comparación general de materiales eléctricos
         .tabla-a.color-acento-contenido
           table
@@ -265,7 +265,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 8.
+          h5.text-bold Tabla 8.
           span Componentes del circuito y su función
         .tabla-a.color-acento-contenido
           table
@@ -298,28 +298,29 @@
                 td Interruptor manual, contactor.
 
     separador
+    .bg-full-width.bg-fondo-2
 
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3 Tipos de protecciones y su función en el circuito
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.3 Tipos de protecciones y su función en el circuito
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-auto.mb-lg-0
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 Las protecciones eléctricas son elementos esenciales en cualquier instalación, ya que permiten mantener la seguridad de las personas, de los equipos y del sistema ante condiciones anormales de operación. Su función principal es interrumpir el flujo de corriente cuando se presentan fallas, evitando daños por sobrecorriente, cortocircuitos o fugas a tierra. Comprender cómo operan estas protecciones y en qué situación actúa cada una es clave para el análisis e implementación de circuitos seguros.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-auto.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 Las protecciones eléctricas son elementos esenciales en cualquier instalación, ya que permiten mantener la seguridad de las personas, de los equipos y del sistema ante condiciones anormales de operación. Su función principal es interrumpir el flujo de corriente cuando se presentan fallas, evitando daños por sobrecorriente, cortocircuitos o fugas a tierra. Comprender cómo operan estas protecciones y en qué situación actúa cada una es clave para el análisis e implementación de circuitos seguros.
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 3.
-          span Protecciones eléctricas y su función en el circuito
-        figure.mb-2
-          img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
-          img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img16_m.png", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
-        figcaption <strong>Nota:</strong> SENA, 2026
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Figura 3.
+            span Protecciones eléctricas y su función en el circuito
+          figure.mb-2
+            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito. En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”. Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, 2026.")
+            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img16_m.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito.  En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”.  Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, 2026.")
+          figcaption <strong>Nota:</strong> SENA, 2026
 
 
 </template>

@@ -21,7 +21,7 @@ export default {
         'Fundamentos, magnitudes, componentes y protecciones en circuitos eléctricos.',
       titulo: 'Cuestionario',
       introduccion:
-        'Evaluar tu apropiación sobre conceptos básicos de electricidad (átomo y carga), clasificación AC/DC, magnitudes eléctricas (V, I, R, P), materiales y componentes del circuito, y funciones esenciales de protecciones.',
+        '<b>Objetivo:</b> evaluar tu apropiación sobre conceptos básicos de electricidad (átomo y carga), clasificación AC/DC, magnitudes eléctricas (V, I, R, P), materiales y componentes del circuito, y funciones esenciales de protecciones.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

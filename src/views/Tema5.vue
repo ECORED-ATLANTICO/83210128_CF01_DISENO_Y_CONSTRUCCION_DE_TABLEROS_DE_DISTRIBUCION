@@ -29,45 +29,46 @@
 
     p.mb-4 Fue formulada en 1827 por el físico alemán Georg Simon Ohm, quien dedicó gran parte de su carrera a estudiar la conducción eléctrica en metales. Su obra Die galvanische Kette, mathematisch bearbeitet revolucionó el análisis de circuitos al proponer, por primera vez, una relación matemática que explicaba cómo la corriente variaba en función de la resistencia y la diferencia de potencial. Aunque inicialmente enfrentó críticas, la comunidad científica terminó reconociendo la Ley de Ohm como una de las bases de la electricidad moderna.
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema5/img02.svg", alt="Principio 1")
-          .p-4
-            p.mb-3 La Ley de Ohm explica cómo se relacionan tres elementos fundamentales de la electricidad:
-            ul.lista-ul.mb-0
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | Voltaje (V): la fuerza que impulsa la electricidad.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | Corriente (I): el flujo de electricidad que circula por el conductor.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | Resistencia (R): la dificultad que encuentra la electricidad para circular.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-5
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img02.svg", alt="Principio 1")
+            .p-4
+              p.mb-3 La Ley de Ohm explica cómo se relacionan tres elementos fundamentales de la electricidad:
+              ul.lista-ul.mb-0
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | Voltaje (V): la fuerza que impulsa la electricidad.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | Corriente (I): el flujo de electricidad que circula por el conductor.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | Resistencia (R): la dificultad que encuentra la electricidad para circular.
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema5/img03.svg", alt="Principio 2")
-          .p-4
-            p.mb-3 Una forma sencilla de entenderlo es imaginar una manguera con agua:
-            ul.lista-ul.mb-0
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | El voltaje sería la presión del agua.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | La corriente sería la cantidad de agua que circula.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | La resistencia sería una obstrucción o estrechamiento en la manguera.
-            p.mb-0 Si aumenta la presión, circula más agua. Si la manguera se estrecha, circula menos agua.
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img03.svg", alt="Principio 2")
+            .p-4
+              p.mb-3 Una forma sencilla de entenderlo es imaginar una manguera con agua:
+              ul.lista-ul.mb-0
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | El voltaje sería la presión del agua.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | La corriente sería la cantidad de agua que circula.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | La resistencia sería una obstrucción o estrechamiento en la manguera.
+              p.mb-0 Si aumenta la presión, circula más agua. Si la manguera se estrecha, circula menos agua.
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        figure
-          img(src="@/assets/curso/tema5/img04.png", alt="Principio 3")
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+          figure
+            img(src="@/assets/curso/tema5/img04.png", alt="Principio 3")
 
 
     p.mb-3 En electricidad ocurre algo similar. La corriente depende del voltaje y de la resistencia del circuito.
@@ -101,36 +102,37 @@
 
     p.mb-5.mb-lg-4 La ley que relaciona potencia con tensión y corriente lleva el apellido del ingeniero escocés James Watt, célebre por perfeccionar la máquina de vapor en el siglo XVIII. Aunque su trabajo no se centró en electricidad, sus estudios sobre energía, trabajo y eficiencia permitieron establecer la unidad vatio (W) en su honor. Posteriormente, los desarrollos de Ohm, Joule y otros científicos integraron sus conceptos, dando forma a la expresión actual de la potencia eléctrica.
     
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-2.mb-xl-0.order-3.order-lg-1
-        figure
-          img(src="@/assets/curso/tema5/img05.png", alt="Principio 3")
-
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-1.order-lg-2
-        .tarjeta.box-shadow.p-0.h-100
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-5
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-2.mb-xl-0.order-3.order-lg-1
           figure
-            img(src="@/assets/curso/tema5/img06.svg", alt="Principio 1")
-          .p-4
-            p.mb-3 La Ley de Watt explica cuánta energía eléctrica consume un dispositivo o equipo. Esta energía se conoce como potencia eléctrica y se mide en Watts (W).
-            p.mb-3 La potencia depende de dos factores:
-            ul.lista-ul.mb-0
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | El voltaje que recibe el equipo.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | La corriente que circula a través de él.
-            p.mb-0 La relación se expresa así: P = V × I
+            img(src="@/assets/curso/tema5/img05.png", alt="Principio 3")
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-2.order-lg-3
-        .tarjeta.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema5/img07.svg", alt="Principio 2")
-          .p-4
-            h4.mb-3 Ejemplo aplicado
-            p.mb-3 Si un equipo funciona con 120 voltios y consume 2 amperios, su potencia será:
-            p.mb-3.text-bold P = 120 × 2 = 240 W
-            p.mb-0 Esto significa que el equipo utiliza 240 watts de energía para funcionar.
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-1.order-lg-2
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img06.svg", alt="Principio 1")
+            .p-4
+              p.mb-3 La Ley de Watt explica cuánta energía eléctrica consume un dispositivo o equipo. Esta energía se conoce como potencia eléctrica y se mide en Watts (W).
+              p.mb-3 La potencia depende de dos factores:
+              ul.lista-ul.mb-0
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | El voltaje que recibe el equipo.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | La corriente que circula a través de él.
+              p.mb-0 La relación se expresa así: P = V × I
+
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-5.mb-xl-0.order-2.order-lg-3
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img07.svg", alt="Principio 2")
+            .p-4
+              h4.mb-3 Ejemplo aplicado
+              p.mb-3 Si un equipo funciona con 120 voltios y consume 2 amperios, su potencia será:
+              p.mb-3.text-bold P = 120 × 2 = 240 W
+              p.mb-0 Esto significa que el equipo utiliza 240 watts de energía para funcionar.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-12.col-lg-12
@@ -173,42 +175,43 @@
 
     p.mb-4 Estas leyes se basan en dos ideas simples: la corriente se reparte y el voltaje se distribuye.
 
-    .row.justify-content-center.mb-3.mb-lg-3
-      .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema5/img08.svg", alt="KCL")
-          .p-4
-            .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-              h4.text-white.mb-0 Ley de Corrientes de Kirchhoff (KCL)
-            p.mb-3 Esta ley dice que, la corriente que llega a un punto del circuito debe ser igual a la corriente que sale de ese punto. Ese punto se llama nodo.
-            p.mb-3 Una forma sencilla de entenderlo es imaginar una tubería de agua que se divide en varias ramas. El agua que entra debe repartirse entre las diferentes salidas.
-            p.mb-3 <strong>Por ejemplo:</strong> 
-            p.mb-3 Si 10 amperios llegan a un nodo y se dividen en dos ramas:
-            ul.lista-ul
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | una puede llevar 6 amperios.
-              li
-                i.fas.fa-circle-right.bg-color-17
-                | la otra 4 amperios.
-            p.mb-0 La suma sigue siendo 10 amperios.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-3.mb-lg-3
+        .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img08.svg", alt="KCL")
+            .p-4
+              .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                h4.text-white.mb-0 Ley de Corrientes de Kirchhoff (KCL)
+              p.mb-3 Esta ley dice que, la corriente que llega a un punto del circuito debe ser igual a la corriente que sale de ese punto. Ese punto se llama nodo.
+              p.mb-3 Una forma sencilla de entenderlo es imaginar una tubería de agua que se divide en varias ramas. El agua que entra debe repartirse entre las diferentes salidas.
+              p.mb-3 <strong>Por ejemplo:</strong> 
+              p.mb-3 Si 10 amperios llegan a un nodo y se dividen en dos ramas:
+              ul.lista-ul
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | una puede llevar 6 amperios.
+                li
+                  i.fas.fa-circle-right.bg-color-17
+                  | la otra 4 amperios.
+              p.mb-0 La suma sigue siendo 10 amperios.
 
-      .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema5/img09.svg", alt="KVL")
-          .p-4
-            .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-              h4.text-white.mb-0 Ley de Voltajes de Kirchhoff (KVL)
-            p.mb-3 Esta ley explica que, la energía que entrega la fuente eléctrica se reparte entre todos los componentes del circuito.
-            p.mb-3 Es decir, si una fuente entrega 12 voltios, esa energía se distribuye entre los elementos conectados.
-            p.mb-3 <strong>Por ejemplo:</strong> 
-            p.mb-0 Si un circuito tiene una fuente de 12 V y dos resistencias en serie: 
-            p.mb-0 Una puede tener 7 V.
-            p.mb-3 La otra 5 V. 
-            p.mb-3 La suma será: 7 V + 5 V = 12 V. 
-            p.mb-2 Esto significa que la energía se conserva dentro del circuito.
+        .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .tarjeta.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema5/img09.svg", alt="KVL")
+            .p-4
+              .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                h4.text-white.mb-0 Ley de Voltajes de Kirchhoff (KVL)
+              p.mb-3 Esta ley explica que, la energía que entrega la fuente eléctrica se reparte entre todos los componentes del circuito.
+              p.mb-3 Es decir, si una fuente entrega 12 voltios, esa energía se distribuye entre los elementos conectados.
+              p.mb-3 <strong>Por ejemplo:</strong> 
+              p.mb-0 Si un circuito tiene una fuente de 12 V y dos resistencias en serie: 
+              p.mb-0 Una puede tener 7 V.
+              p.mb-3 La otra 5 V. 
+              p.mb-3 La suma será: 7 V + 5 V = 12 V. 
+              p.mb-2 Esto significa que la energía se conserva dentro del circuito.
 
 
     separador
@@ -230,7 +233,7 @@
     .row.justify-content-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 12. 
+          h5.text-bold Tabla 12. 
           span Aplicación de leyes eléctricas en simuladores
 
         .tabla-a.color-acento-contenido

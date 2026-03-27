@@ -34,21 +34,22 @@
               p.mb-0 Comprender la estructura del átomo es fundamental para explicar los fenómenos eléctricos presentes en cualquier sistema técnico. La electricidad no es más que el movimiento ordenado de cargas, especialmente electrones, y este comportamiento solo puede entenderse si se conoce cómo están organizados los átomos, qué fuerzas actúan sobre sus partículas y por qué algunos materiales permiten el libre desplazamiento electrónico mientras que otros lo impiden. Este conocimiento se convierte en la base sobre la cual el aprendiz desarrollará habilidades para analizar circuitos, interpretar magnitudes eléctricas y comprender el funcionamiento de dispositivos eléctricos en el entorno productivo. 
         p.mb-0 Todos los materiales están formados por átomos, y la forma en que estos se organizan determina sus propiedades eléctricas. Un átomo está compuesto por tres partículas principales:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
-          span Estructura del átomo
-        figure.mb-2
-          img(data-aos="fade-up", src="@/assets/curso/tema1/img03.svg", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
-        figcaption <strong>Fuente:</strong> SENA, 2026
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-6
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Figura 1.
+            span Estructura del átomo
+          figure.mb-2
+            img(data-aos="fade-up", src="@/assets/curso/tema1/img03.svg", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
+          figcaption <strong>Fuente:</strong> SENA, 2026
 
-    p.mb-5 La mayor parte de la masa del átomo se concentra en el núcleo, donde se encuentran protones y neutrones, mientras que los electrones se distribuyen en diferentes niveles de energía. Esta distribución electrónica es clave para comprender por qué algunos materiales son conductores y otros no.
+      p.mb-5 La mayor parte de la masa del átomo se concentra en el núcleo, donde se encuentran protones y neutrones, mientras que los electrones se distribuyen en diferentes niveles de energía. Esta distribución electrónica es clave para comprender por qué algunos materiales son conductores y otros no.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 1.
+          h5.text-bold Tabla 1.
           span Partículas subatómicas y sus características principales
         .tabla-a.color-acento-contenido
           table
@@ -77,7 +78,10 @@
                 td Responsable del flujo de corriente eléctrica.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.mb-4.mb-lg-0
+      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img04.png", data-aos="zoom-in")
+      .col-lg-9
         p.mb-3 Los electrones no se ubican de manera aleatoria. Se distribuyen en niveles de energía que rodean al núcleo, y estos niveles están organizados de menor a mayor energía. El nivel más externo se denomina capa de valencia, y es aquí donde se encuentran los electrones que participan en procesos eléctricos.
         
         .tarjeta.bg-color-1.p-4.mb-3.br-15
@@ -88,23 +92,69 @@
             .col
               p.mb-0 Cuando un electrón de valencia se encuentra débilmente ligado al núcleo, puede desplazarse fácilmente hacia otro átomo, lo que genera electrones libres. Este fenómeno es el fundamento de la conductividad eléctrica.
 
-        p.mb-0 La cantidad de electrones en la capa externa determina el comportamiento eléctrico de un material:
-        
-      .col-12.col-md-8.col-lg-3
-        figure
-          img(src="@/assets/curso/tema1/img04.png", data-aos="zoom-in")
+    p.mb-4 La cantidad de electrones en la capa externa determina el comportamiento eléctrico de un material:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-5
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 2.
-          span Proceso de conducción del flujo de electrones
-        figure.mb-2
-          img.mx-auto(data-aos="zoom-in", src="@/assets/curso/tema1/img07.svg", alt="Ilustración del flujo de electrones entre átomos").w-75
-          //- img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/img04_mob.svg", alt="La figura muestra átomos compartiendo un electrón de valencia de órbita en órbita, provocando un flujo.")
-        figcaption <strong>Fuente:</strong> SENA, 2026
+      .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img06.png", data-aos="zoom-in" alt="1 a 3 electrones de valencia → Conductores (cobre, plata, aluminio). 4 electrones de valencia → Semiconductores (silicio, germanio). 5 a 8 electrones de valencia → Aislantes (plástico, goma, vidrio).")
+      .col-lg-8.col-md-12
+        .row.justify-content-center.align-items-center
+          .col-lg-12.mb-4.mb-lg-3
+            .row.justify-content-center
+              .col-5.col-lg-4.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-3.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 1 a 3 electrones de valencia
 
-      
+              .col-2.col-lg-2.col-md-2.mb-0.mb-lg-0.align-self-center
+                figure
+                  img(src="@/assets/curso/tema1/img37.svg", data-aos="zoom-in").mx-auto
+
+              .col-5.col-lg-6.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-4.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 Conductores (cobre, plata, aluminio).
+
+          .col-lg-12.mb-4.mb-lg-3
+            .row.justify-content-center
+              .col-5.col-lg-4.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-3.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 4 electrones de valencia
+
+              .col-2.col-lg-2.col-md-2.mb-0.mb-lg-0.align-self-center
+                figure
+                  img(src="@/assets/curso/tema1/img37.svg", data-aos="zoom-in").mx-auto
+
+              .col-5.col-lg-6.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-4.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 Semiconductores (silicio, germanio).
+
+          .col-lg-12
+            .row.justify-content-center
+              .col-5.col-lg-4.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-3.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 5 a 8 electrones de valencia
+
+              .col-2.col-lg-2.col-md-2.mb-0.mb-lg-0.align-self-center
+                figure
+                  img(src="@/assets/curso/tema1/img37.svg", data-aos="zoom-in").mx-auto
+
+              .col-5.col-lg-6.col-md-5.mb-0.mb-lg-0
+                .tarjeta.bg-color-4.p-2.p-md-4.br-15.h-100.align-content-center
+                  p.mb-0 Aislantes (plástico, goma, vidrio).
+
+    .bg-full-width.bg-fondo-2
+    
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-8.col-lg-5
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Figura 2.
+            span Proceso de conducción del flujo de electrones
+          figure.mb-2
+            img.mx-auto(data-aos="zoom-in", src="@/assets/curso/tema1/img07.svg", alt="Ilustración del flujo de electrones entre átomos").w-75
+            //- img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/img04_mob.svg", alt="La figura muestra átomos compartiendo un electrón de valencia de órbita en órbita, provocando un flujo.")
+          figcaption <strong>Fuente:</strong> SENA, 2026
+
+        
     .row.justify-content-center.mb-5
       .col-xl-6.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -122,11 +172,11 @@
               img(src="@/assets/curso/tema1/img09.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 El flujo de electrones ocurre porque:
-            p.mb-0 
-              ul.lista-ul
+            p.mb-0.font-size-13 
+              ul.lista-ul.mb-0
                 li Los átomos conductores tienen electrones débilmente ligados.
                 li Al aplicar una diferencia de potencial, los electrones se mueven desde el punto de mayor concentración hacia el de menor concentración.
-                li Este movimiento ordenado constituye la base del funcionamiento de todos los circuitos eléctricos
+                li Este movimiento ordenado constituye la base del funcionamiento de todos los circuitos eléctricos.
 
     
     p.mb-4 A continuación lo invitamos a consultar el siguiente podcast para ampliar los conceptos sobre el átomo y su estructura:
@@ -134,7 +184,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 2.
+          h5.text-bold Tabla 2.
           span Clasificación de los materiales según su conductividad
         .tabla-a.color-acento-contenido
           table
@@ -175,7 +225,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-9.col-lg-6.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in", alt="Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo. En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad. Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada. Nota. SENA, 2026.")
       .col-md-12.col-lg-6
         .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo.
@@ -186,33 +236,34 @@
         .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada.
             
-    .row.justify-content-center.align-items-center.mb-3
-      .col-lg-10.mb-0
-        .tarjeta.color-primario.p-2.banner_tarjeta
-          .row.justify-content-around.align-items-center.p-3
-            .col-auto
-              img(src="@/assets/curso/tema1/img12.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Ingrese a este enlace de video para conocer cómo se produce la corriente eléctrica.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=BEFGzbV5SE8" target="_blank")
-                    span Ver video
-                    i.fas.fa-play
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-10.mb-0
+          .tarjeta.color-primario.p-2.banner_tarjeta
+            .row.justify-content-around.align-items-center.p-3
+              .col-auto
+                img(src="@/assets/curso/tema1/img12.svg").img65
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.mb-0 Ingrese a este enlace de video para conocer cómo se produce la corriente eléctrica.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=BEFGzbV5SE8" target="_blank")
+                      span Ver video
+                      i.fas.fa-play
 
-    separador
+      separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2 Carga eléctrica y campo eléctrico
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 1.2 Carga eléctrica y campo eléctrico
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-auto.mb-lg-0
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 La comprensión de la carga eléctrica y del campo eléctrico es esencial para interpretar la manera en que se comportan los sistemas eléctricos en cualquier entorno técnico. La carga permite explicar cómo interactúan las partículas a nivel microscópico, mientras que el campo eléctrico describe la influencia que una carga ejerce sobre otra aun cuando no exista contacto directo. Este conocimiento es la base para entender cómo se generan las fuerzas responsables del movimiento de electrones y, en consecuencia, del establecimiento de la corriente eléctrica en los circuitos. 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-auto.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 La comprensión de la carga eléctrica y del campo eléctrico es esencial para interpretar la manera en que se comportan los sistemas eléctricos en cualquier entorno técnico. La carga permite explicar cómo interactúan las partículas a nivel microscópico, mientras que el campo eléctrico describe la influencia que una carga ejerce sobre otra aun cuando no exista contacto directo. Este conocimiento es la base para entender cómo se generan las fuerzas responsables del movimiento de electrones y, en consecuencia, del establecimiento de la corriente eléctrica en los circuitos. 
 
    
     .container.justify-content-center.align-items-center.mb-5
@@ -227,43 +278,44 @@
         .tarjeta.bg-color-1.p-4.mb-3.br-15
           p.mb-0 La carga eléctrica es una propiedad física que determina cómo interactúan las partículas en presencia de otras cargas. Existen dos tipos principales: positiva y negativa, y su comportamiento se rige por tres principios fundamentales:
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.bg-color-white.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema1/img15.png", alt="Principio 1")
-          .p-4
-            .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-              h5.text-white.mb-0 Principio 1: las cargas iguales se repelen.
-            p.mb-3 <strong>Ejemplo:</strong> cabello que “se eriza” con un suéter de lana.
-            p.mb-3 Al quitarse un suéter, algunos cabellos ganan electrones y quedan cargados negativamente. Cada cabello tiene el mismo tipo de carga.
-            p.mb-0 <strong>Resultado:</strong> los cabellos se repelen entre ellos y se separan.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-5
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+          .tarjeta.bg-color-white.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema1/img15.png", alt="Principio 1")
+            .p-4
+              .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                h5.text-white.mb-0 Principio 1: las cargas iguales se repelen.
+              p.mb-3 <strong>Ejemplo:</strong> cabello que “se eriza” con un suéter de lana.
+              p.mb-3 Al quitarse un suéter, algunos cabellos ganan electrones y quedan cargados negativamente. Cada cabello tiene el mismo tipo de carga.
+              p.mb-0 <strong>Resultado:</strong> los cabellos se repelen entre ellos y se separan.
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
-        .tarjeta.bg-color-white.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema1/img16.png", alt="Principio 2")
-          .p-4
-            .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-              h5.text-white.mb-0 Principio 2: las cargas opuestas se atraen.
-            p.mb-3 <strong>Ejemplo:</strong> globo frotado en el cabello.
-            p.mb-3 Al frotar un globo en el cabello, el globo queda cargado negativamente. El cabello pierde electrones y queda cargado positivamente.
-            p.mb-0 <strong>Resultado:</strong> el globo es atraído hacia el cabello.
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
+          .tarjeta.bg-color-white.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema1/img16.png", alt="Principio 2")
+            .p-4
+              .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                h5.text-white.mb-0 Principio 2: las cargas opuestas se atraen.
+              p.mb-3 <strong>Ejemplo:</strong> globo frotado en el cabello.
+              p.mb-3 Al frotar un globo en el cabello, el globo queda cargado negativamente. El cabello pierde electrones y queda cargado positivamente.
+              p.mb-0 <strong>Resultado:</strong> el globo es atraído hacia el cabello.
 
-      .col-xl-4.col-lg-4.col-md-6.col-12.mb-0.mb-xl-0
-        .tarjeta.bg-color-white.box-shadow.p-0.h-100
-          figure
-            img(src="@/assets/curso/tema1/img17.png", alt="Principio 3")
-          .p-4
-            .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-              h5.text-white.mb-0 Principio 3: la carga puede transferirse entre materiales mediante fricción, contacto o inducción.
-            p.mb-3 <strong>Ejemplo:</strong> peine sobre el pelo seco.
-            p.mb-2 El peine gana electrones &rarr; carga negativa.
-            p.mb-3 El cabello pierde electrones &rarr; carga positiva.
-            p.mb-0 <strong>Resultado:</strong> se generó una transferencia por fricción.
+        .col-xl-4.col-lg-4.col-md-6.col-12.mb-0.mb-lg-0
+          .tarjeta.bg-color-white.box-shadow.p-0.h-100
+            figure
+              img(src="@/assets/curso/tema1/img17.png", alt="Principio 3")
+            .p-4
+              .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                h5.text-white.mb-0 Principio 3: la carga puede transferirse entre materiales mediante fricción, contacto o inducción.
+              p.mb-3 <strong>Ejemplo:</strong> peine sobre el pelo seco.
+              p.mb-2 El peine gana electrones &rarr; carga negativa.
+              p.mb-3 El cabello pierde electrones &rarr; carga positiva.
+              p.mb-0 <strong>Resultado:</strong> se generó una transferencia por fricción.
 
-    p.mb-4 Este comportamiento explica fenómenos esenciales en el análisis de circuitos, ya que el movimiento de cargas, principalmente electrones, es lo que da origen a la corriente eléctrica.
-    
+      p.mb-4 Este comportamiento explica fenómenos esenciales en el análisis de circuitos, ya que el movimiento de cargas, principalmente electrones, es lo que da origen a la corriente eléctrica.
+      
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -291,7 +343,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 3.
+          h5.text-bold Tabla 3.
           span Valores de carga eléctrica
         .tabla-a.color-acento-contenido
           table
@@ -364,58 +416,82 @@
               figure
                 img(src="@/assets/curso/tema1/img21.svg", data-aos="zoom-in")
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-auto.mb-lg-0
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 Las líneas del campo eléctrico salen de las cargas positivas y entran en las negativas, lo que explica que las cargas del mismo signo se repelan y las de signo opuesto se atraigan. Al representar varios campos simultáneamente, se aplica el principio de superposición, según el cual el campo total es la suma vectorial de los campos generados por cada carga. Por esta razón, las líneas de campo no pueden cruzarse, ya que cada punto del espacio solo puede tener una dirección definida para el campo eléctrico ( IEEE Educational Resourses, 2024)
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-auto.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 Las líneas del campo eléctrico salen de las cargas positivas y entran en las negativas, lo que explica que las cargas del mismo signo se repelan y las de signo opuesto se atraigan. Al representar varios campos simultáneamente, se aplica el principio de superposición, según el cual el campo total es la suma vectorial de los campos generados por cada carga. Por esta razón, las líneas de campo no pueden cruzarse, ya que cada punto del espacio solo puede tener una dirección definida para el campo eléctrico ( IEEE Educational Resourses, 2024)
 
+      .row.jtify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-7
+          .tarjeta.bg-color-4.p-4.br-15
+            p.mb-3 La intensidad del campo eléctrico generado por una carga puntual se calcula con:
+            .row.align-items-center
+              .col-lg-8.col-md-8.mb-4.mb-lg-0
+                .lista-ul.mb-0
+                  li
+                    i.fas.fa-circle-right.bg-color-17
+                    | E es la intensidad del campo.
+                  li
+                    i.fas.fa-circle-right.bg-color-17
+                    | q la carga que lo produce.
+                  li
+                    i.fas.fa-circle-right.bg-color-17
+                    | r la distancia al punto de observación.
+                  li
+                    i.fas.fa-circle-right.bg-color-17
+                    | k una constante que depende del medio. 
 
-    p.mb-4 El campo eléctrico es más intenso en el vacío que en medios materiales, donde las propiedades dieléctricas lo atenúan.
+              .col-lg-4.col-md-4.mx-auto
+                figure
+                  img(src="@/assets/curso/tema1/img36.svg", data-aos="zoom-in")
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .tarjeta.bg-color-1.p-4.mb-3.br-15
-          .row.justify-content-center.align-items-center
-            .col-auto.mx-auto.d-none.d-md-flex
-              figure
-                img(src="@/assets/curso/tema1/img02.svg", data-aos="zoom-in")
-            .col
-              p.mb-0 La intensidad del campo eléctrico expresa cuánta fuerza actúa sobre una carga de prueba positiva en un punto y se mide en newton por coulomb (N/C). Además de explicar fuerzas de atracción y repulsión, este concepto permite predecir trayectorias de partículas, diseñar dispositivos electrónicos, comprender fenómenos electromagnéticos y apoyar aplicaciones en ingeniería, geofísica y procesos industriales.
-        
+      p.mb-4 El campo eléctrico es más intenso en el vacío que en medios materiales, donde las propiedades dieléctricas lo atenúan.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12.col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 4.
-          span Campo eléctrico, fórmulas y aplicación
-        .tabla-a.color-acento-contenido
-          table
-            caption Nota. SENA, 2026.
-            thead
-              tr
-                th Concepto
-                th Fórmula
-                th Aplicación
-            tbody
-              tr
-                td Definición general.
-                td E ⃗=F ⃗/q
-                td Describe la intensidad del campo en cualquier punto.
-              tr
-                td Carga puntual.
-                td E ⃗=k Q/r<sup>2</sup> r ̂
-                td Campo generado por cargas aisladas.
-              tr
-                td Campo uniforme.
-                td E=V/d
-                td Placas paralelas, tableros, equipos eléctricos.
-              tr
-                td Fuerza eléctrica.
-                td F ⃗=qE ⃗
-                td Cálculo de la interacción carga–campo.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .tarjeta.bg-color-1.p-4.mb-3.br-15
+            .row.justify-content-center.align-items-center
+              .col-auto.mx-auto.d-none.d-md-flex
+                figure
+                  img(src="@/assets/curso/tema1/img02.svg", data-aos="zoom-in")
+              .col
+                p.mb-0 La intensidad del campo eléctrico expresa cuánta fuerza actúa sobre una carga de prueba positiva en un punto y se mide en newton por coulomb (N/C). Además de explicar fuerzas de atracción y repulsión, este concepto permite predecir trayectorias de partículas, diseñar dispositivos electrónicos, comprender fenómenos electromagnéticos y apoyar aplicaciones en ingeniería, geofísica y procesos industriales.
+          
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-12.col-lg-12
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5.text-bold Tabla 4.
+            span Campo eléctrico, fórmulas y aplicación
+          .tabla-a.color-acento-contenido
+            table
+              caption Nota. SENA, 2026.
+              thead
+                tr
+                  th Concepto
+                  th Fórmula
+                  th Aplicación
+              tbody
+                tr
+                  td Definición general.
+                  td E ⃗=F ⃗/q
+                  td Describe la intensidad del campo en cualquier punto.
+                tr
+                  td Carga puntual.
+                  td E ⃗=k Q/r<sup>2</sup> r ̂
+                  td Campo generado por cargas aisladas.
+                tr
+                  td Campo uniforme.
+                  td E=V/d
+                  td Placas paralelas, tableros, equipos eléctricos.
+                tr
+                  td Fuerza eléctrica.
+                  td F ⃗=qE ⃗
+                  td Cálculo de la interacción carga–campo.
 
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -536,55 +612,56 @@
         figure
           img(src="@/assets/curso/tema1/img27.png", data-aos="zoom-in")
 
-    .row.justify-content-center.align-items-center.mb-5
-      p.mb-4 La corriente eléctrica puede clasificarse en dos formas principales: 
-      .col-md-8.col-lg-4.mb-5.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img28.png", data-aos="zoom-in")
-      .col-md-12.col-lg-8
-        .row.justify-content-center
-          .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
-            .tarjeta.bg-color-white.box-shadow.p-0.h-100
-              figure
-                img(src="@/assets/curso/tema1/img29.png", alt="Corriente continua")
-              .p-4
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h5.text-white.mb-0 Corriente continua (DC)
-                p.mb-2 La corriente continua (Direct Current) se caracteriza por:
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Fluye en una sola dirección.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Mantiene un valor de voltaje estable en el tiempo.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Es ideal en dispositivos electrónicos y sistemas de almacenamiento energético.
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.align-items-center.mb-5
+        p.mb-4 La corriente eléctrica puede clasificarse en dos formas principales: 
+        .col-md-8.col-lg-4.mb-4.mb-lg-0.order-2.order-lg-1
+          figure
+            img(src="@/assets/curso/tema1/img28.png", data-aos="zoom-in")
+        .col-md-12.col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
+          .row.justify-content-center
+            .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
+              .tarjeta.bg-color-white.box-shadow.p-0.h-100
+                figure
+                  img(src="@/assets/curso/tema1/img29.png", alt="Corriente continua")
+                .p-4
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h5.text-white.mb-0 Corriente continua (DC)
+                  p.mb-2 La corriente continua (Direct Current) se caracteriza por:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Fluye en una sola dirección.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Mantiene un valor de voltaje estable en el tiempo.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Es ideal en dispositivos electrónicos y sistemas de almacenamiento energético.
 
-          .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
-            .tarjeta.bg-color-white.box-shadow.p-0.h-100
-              figure
-                img(src="@/assets/curso/tema1/img30.png", alt="Corriente alterna")
-              .p-4
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h5.text-white.mb-0 Corriente alterna (AC)
-                p.mb-2 La corriente alterna (Alternating Current):
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Cambia de dirección periódicamente.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Su forma de onda suele ser sinusoidal.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Se utiliza en hogares, industrias y redes de distribución.
+            .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
+              .tarjeta.bg-color-white.box-shadow.p-0.h-100
+                figure
+                  img(src="@/assets/curso/tema1/img30.png", alt="Corriente alterna")
+                .p-4
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h5.text-white.mb-0 Corriente alterna (AC)
+                  p.mb-2 La corriente alterna (Alternating Current):
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Cambia de dirección periódicamente.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Su forma de onda suele ser sinusoidal.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Se utiliza en hogares, industrias y redes de distribución.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 5.
+          h5.text-bold Tabla 5.
           span Fuentes típicas de corriente continua (DC) y corriente alterna (AC)
         .tabla-a.color-acento-contenido
           table
@@ -655,43 +732,44 @@
 
     separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    .bg-full-width.bg-fondo-2
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Magnitudes eléctricas básicas: tensión, corriente, resistencia, potencia
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-auto.mb-lg-0.mb-4
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
-          .col-lg
-            p.mb-0 Las magnitudes eléctricas básicas constituyen el lenguaje fundamental con el que se describen y analizan los circuitos eléctricos. Comprender qué es el voltaje, cómo mide la corriente, por qué existe la resistencia en los materiales y de qué manera se calcula la potencia permite interpretar mediciones, diseñar circuitos funcionales y prever el comportamiento de un sistema eléctrico. Estas magnitudes se relacionan entre sí mediante leyes universales como la Ley de Ohm, lo que facilita el análisis matemático y experimental. En este apartado, el aprendiz podrá identificar estas magnitudes, entender su propósito y aplicarlas en situaciones reales de trabajo.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-auto.mb-lg-0.mb-4
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
+            .col-lg
+              p.mb-0 Las magnitudes eléctricas básicas constituyen el lenguaje fundamental con el que se describen y analizan los circuitos eléctricos. Comprender qué es el voltaje, cómo mide la corriente, por qué existe la resistencia en los materiales y de qué manera se calcula la potencia permite interpretar mediciones, diseñar circuitos funcionales y prever el comportamiento de un sistema eléctrico. Estas magnitudes se relacionan entre sí mediante leyes universales como la Ley de Ohm, lo que facilita el análisis matemático y experimental. En este apartado, el aprendiz podrá identificar estas magnitudes, entender su propósito y aplicarlas en situaciones reales de trabajo.
 
-    .container.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
-            h3.titulo-con-imagen__texto Tensión o voltaje (V)
+      .container.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/img14.svg")
+              h3.titulo-con-imagen__texto Tensión o voltaje (V)
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img31.svg", data-aos="zoom-in")
-      .col-lg-9.mb-4.mb-lg-0
-        .tarjeta.bg-color-4.p-3.mb-3.br-15
-          p.mb-0 En el Sistema Internacional (SI), la unidad de carga es el coulomb (C). Esta unidad permite cuantificar de forma práctica la cantidad de carga que se desplaza en un conductor.
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-md-8.col-lg-3.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema1/img31.svg", data-aos="zoom-in")
+        .col-lg-9.mb-4.mb-lg-0
+          .tarjeta.bg-color-4.p-3.mb-3.br-15
+            p.mb-0 En el Sistema Internacional (SI), la unidad de carga es el coulomb (C). Esta unidad permite cuantificar de forma práctica la cantidad de carga que se desplaza en un conductor.
 
-        .lista-ul.mb-3
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Unidad: voltio (V).
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Instrumento: voltímetro.
-          li
-            i.fas.fa-circle-right.bg-color-17
-            | Se mide en paralelo.
+          .lista-ul.mb-3
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Unidad: voltio (V).
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Instrumento: voltímetro.
+            li
+              i.fas.fa-circle-right.bg-color-17
+              | Se mide en paralelo.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -813,7 +891,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 6.
+          h5.text-bold Tabla 6.
           span Resumen de magnitudes
         .tabla-a.color-acento-contenido
           table

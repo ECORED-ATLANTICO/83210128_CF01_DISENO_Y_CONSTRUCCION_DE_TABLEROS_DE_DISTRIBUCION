@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 23%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 62%
+    right: 87%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 23%
+    right: 10%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 62%
+    right: 4%
 
 @keyframes float1
   0%
@@ -33,7 +43,7 @@
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-sm)
+  @media screen and (max-width: $bp-max-xs)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 //////// Card hover ////////////
@@ -181,8 +191,8 @@ figcaption
 .br-15
   border-radius: 15px !important
 
-.bg-fondo-1-2
-  // background-image: url("../assets/curso/bg/bg2.png") !important
+.bg-fondo-2
+  background-image: url("../assets/curso/bg.png") !important
   background-position: bottom
   background-size: cover
 
@@ -706,3 +716,17 @@ a, button, div
   z-index: 1
   @media (max-width: 1000px)
     display: none
+
+.text-bold
+  font-weight: 700 !important
+
+.tabla-a
+  background-color: #FFF !important
+
+.lista-ul li ul
+  padding-left: 25px !important
+
+.font-size-13
+  @media screen and (max-width: $bp-max-xs)
+    font-size: 13.5px !important
+    margin: 0px auto !important

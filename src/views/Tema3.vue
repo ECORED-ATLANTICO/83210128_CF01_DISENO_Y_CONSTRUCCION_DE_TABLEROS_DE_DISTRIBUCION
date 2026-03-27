@@ -19,76 +19,77 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Identificación de instrumentos
 
-    p.mb-4 Los instrumentos de medición eléctrica permiten cuantificar variables fundamentales en un circuito y verificar el estado de sus componentes. Entre los más utilizados se encuentran:
+    .bg-full-width.bg-fondo-2
+      p.mb-4.mb-lg-5 Los instrumentos de medición eléctrica permiten cuantificar variables fundamentales en un circuito y verificar el estado de sus componentes. Entre los más utilizados se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .row.align-items-center
-          .col-lg-4.col-md-8.mb-4.mb-lg-0.mx-auto
-            figure
-              img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
-          .col-lg-8
-            SlyderF(columnas="col-12 col-md-6")
-              .tarjeta.bg-color-white.p-4.h-100.box-shadow
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h4.text-white.mb-0 Multímetro digital
-                p.mb-3 Es el instrumento más versátil, capaz de medir tensión (AC/DC), corriente (AC/DC), resistencia, continuidad, y en algunos casos frecuencia y capacidad.
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Pantalla digital.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Selección de rangos manual o automática.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Terminales COM y V/Ω/mA/A.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Funciones adicionales según el modelo (NCV, retención, etc.).
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .row.align-items-center
+            .col-lg-4.col-xl-4.col-md-8.mb-4.mb-lg-4.mb-xl-0.mx-auto
+              figure
+                img(src="@/assets/curso/tema3/img02.png")
+            .col-lg-12.col-xl-8
+              SlyderF(columnas="col-12 col-md-12 col-lg-6")
+                .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h4.text-white.mb-0 Multímetro digital
+                  p.mb-3 Es el instrumento más versátil, capaz de medir tensión (AC/DC), corriente (AC/DC), resistencia, continuidad, y en algunos casos frecuencia y capacidad.
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Pantalla digital.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Selección de rangos manual o automática.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Terminales COM y V/Ω/mA/A.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Funciones adicionales según el modelo (NCV, retención, etc.).
 
-              .tarjeta.bg-color-white.p-4.h-100.box-shadow
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h4.text-white.mb-0 Amperímetro
-                p.mb-3 Instrumento diseñado exclusivamente para medir corriente.
-                p.mb-3 Puede ser:
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | De inserción: se conecta en serie.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Tipo gancho (pinza amperimétrica): mide la corriente sin abrir el circuito.
+                .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h4.text-white.mb-0 Amperímetro
+                  p.mb-3 Instrumento diseñado exclusivamente para medir corriente.
+                  p.mb-3 Puede ser:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | De inserción: se conecta en serie.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Tipo gancho (pinza amperimétrica): mide la corriente sin abrir el circuito.
 
-              .tarjeta.bg-color-white.p-4.h-100.box-shadow
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h4.text-white.mb-0 Voltímetro
-                p.mb-3 Permite medir la diferencia de potencial entre dos puntos.
-                p.mb-3 Características:
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Se conecta en paralelo.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Posee alta impedancia interna para evitar alterar el circuito.
+                .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h4.text-white.mb-0 Voltímetro
+                  p.mb-3 Permite medir la diferencia de potencial entre dos puntos.
+                  p.mb-3 Características:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Se conecta en paralelo.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Posee alta impedancia interna para evitar alterar el circuito.
 
-              .tarjeta.bg-color-white.p-4.h-100.box-shadow
-                .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
-                  h4.text-white.mb-0 Óhmetro
-                p.mb-3 Equipo destinado a medir resistencia eléctrica.
-                ul.lista-ul
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Debe utilizarse con el circuito desenergizado.
-                  li
-                    i.fas.fa-circle-right.bg-color-17
-                    | Sirve para comprobar continuidad y estado de componentes.
+                .tarjeta.bg-color-white.p-4.h-100.box-shadow
+                  .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
+                    h4.text-white.mb-0 Óhmetro
+                  p.mb-3 Equipo destinado a medir resistencia eléctrica.
+                  ul.lista-ul
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Debe utilizarse con el circuito desenergizado.
+                    li
+                      i.fas.fa-circle-right.bg-color-17
+                      | Sirve para comprobar continuidad y estado de componentes.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 9. 
+          h5.text-bold Tabla 9. 
           span Instrumentos y variables medidas
         .tabla-a.color-acento-contenido.mb-0
           table
@@ -137,7 +138,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-md-8.col-lg-3.mb-4.mb-lg-0.d-none.d-lg-flex
         figure
-          img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/img03.png")
       .col-lg-9
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-11")
           .row.justify-content-center.align-items-center(titulo="Medición de tensión (Voltaje)")
@@ -167,7 +168,7 @@
                   | Conectar en serie (incorrecto).
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/img04.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img04.png")
 
           .row.justify-content-center.align-items-center(titulo="Medición de corriente")
             .col-lg-7.col-md-12.mb-4.mb-lg-0
@@ -196,7 +197,7 @@
                   | Asegurar que el rango sea superior a la corriente esperada.
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/img05.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img05.png")
 
           .row.justify-content-center.align-items-center(titulo="Medición de resistencia")
             .col-lg-7.col-md-12.mb-4.mb-lg-0
@@ -225,7 +226,7 @@
                   | Evitar tocar las puntas con las manos.
             .col-lg-5.col-md-8
               figure
-                img(src="@/assets/curso/tema3/img06.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img06.png")
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10.mb-5
@@ -258,7 +259,7 @@
                 img(src="@/assets/curso/tema3/img07.svg", data-aos="zoom-in")
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 10. 
+      h5.text-bold Tabla 10. 
       span Magnitudes, unidades y usos
     .tabla-a.color-acento-contenido.mb-5
       table
@@ -310,7 +311,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Ingresando al enlace que le compartimos a continuación, podrá ampliar los conceptos de unidades de medida más utilizadas: https://www.youtube.com/watch?v=s9TLe_T9ICY
+                  p.mb-0 Ingresando al enlace que le compartimos a continuación, podrá ampliar los conceptos de unidades de medida más utilizadas.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=s9TLe_T9ICY" target="_blank")
                     span Enlace
@@ -332,53 +333,54 @@
             p.mb-0 La seguridad en la medición eléctrica es esencial para evitar daños en el instrumento, en el circuito y, sobre todo, en el usuario. Antes de medir, debe verificar el buen estado del multímetro, las puntas y la categoría de protección (CAT) adecuada para la instalación. Siempre seleccione la función correcta (V, A, Ω) antes de conectar las puntas y evite cambiar el selector con el equipo energizado. Para medir corriente, realice conexiones en serie; para resistencia o continuidad, asegúrese siempre de que el circuito esté desenergizado. Mantenga sus manos alejadas de las partes metálicas, trabaje en superficies secas y utilice elementos de protección cuando corresponda.
 
     p.mb-5 A continuación se ilustra las 5 reglas de oro básicas a tener en cuenta para realizar mediciones eléctricas seguras:
-
-    .row.justify-content-center.mb-5
-      .col-lg-9.position-relative
-        //- h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
-        .avatar
-          figure
-            img(src="@/assets/curso/tema3/img09.svg", alt="alt").img250
-        .crd.crd--avatarHorizontal.crd--first.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema3/img10.svg", alt="alt").img100
-            .col
-              h5.text-dark Desconectar, corte visible o efectivo
-              p Algo básico pero importante, antes de realizar cualquier trabajo eléctrico, es desconectar todas las posibles alimentaciones a la línea. El corte visible es cuando puede comprobar visualmente usted mismo los contactos abiertos, y el corte efectivo es cuando el mismo equipo tiene indicadores de la posición de los contactos, para cerciorarse.
-        .crd.crd--avatarHorizontal.py-4.crd--three
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema3/img11.svg", alt="alt").img100
-            .col
-              h5.text-dark Prevenir realimentación
-              p Debe advertirse a otros trabajadores que se ha realizado el corte y el dispositivo está enclavado y así evitar reconexiones accidentales.
-        .crd.crd--avatarHorizontal.py-4.crd--four
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema3/img12.svg", alt="alt").img100
-            .col
-              h5.text-dark Comprobación de la ausencia de tensión
-              p Siempre debe comprobar la ausencia de tensión antes de iniciar cualquier trabajo, empleando los procesos y equipos de medida apropiados.
-        .crd.crd--avatarHorizontal.py-4.crd--three
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema3/img13.svg", alt="alt").img100
-            .col
-              h5.text-dark Puesta a tierra y en cortocircuito
-              p Este paso es especialmente importante, ya que creará una zona de seguridad virtual alrededor de la zona de trabajo.
-        .crd.crd--avatarHorizontal.crd--last.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src="@/assets/curso/tema3/img14.svg", alt="alt").img100
-            .col
-              h5.text-dark Señalización de la zona de trabajo
-              p Importante en todo trabajo, señalizar muy bien la zona a intervenir para minimizar riesgos y accidentes.
+    
+    .bg-full-width.bg-fondo-2
+      .row.justify-content-center.mb-5
+        .col-lg-9.position-relative
+          //- h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
+          .avatar
+            figure
+              img(src="@/assets/curso/tema3/img09.svg", alt="alt").img250
+          .crd.crd--avatarHorizontal.crd--first.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema3/img10.svg", alt="alt").img100
+              .col
+                h5.text-dark Desconectar, corte visible o efectivo
+                p Algo básico pero importante, antes de realizar cualquier trabajo eléctrico, es desconectar todas las posibles alimentaciones a la línea. El corte visible es cuando puede comprobar visualmente usted mismo los contactos abiertos, y el corte efectivo es cuando el mismo equipo tiene indicadores de la posición de los contactos, para cerciorarse.
+          .crd.crd--avatarHorizontal.py-4.crd--three
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema3/img11.svg", alt="alt").img100
+              .col
+                h5.text-dark Prevenir realimentación
+                p Debe advertirse a otros trabajadores que se ha realizado el corte y el dispositivo está enclavado y así evitar reconexiones accidentales.
+          .crd.crd--avatarHorizontal.py-4.crd--four
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema3/img12.svg", alt="alt").img100
+              .col
+                h5.text-dark Comprobación de la ausencia de tensión
+                p Siempre debe comprobar la ausencia de tensión antes de iniciar cualquier trabajo, empleando los procesos y equipos de medida apropiados.
+          .crd.crd--avatarHorizontal.py-4.crd--three
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema3/img13.svg", alt="alt").img100
+              .col
+                h5.text-dark Puesta a tierra y en cortocircuito
+                p Este paso es especialmente importante, ya que creará una zona de seguridad virtual alrededor de la zona de trabajo.
+          .crd.crd--avatarHorizontal.crd--last.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/tema3/img14.svg", alt="alt").img100
+              .col
+                h5.text-dark Señalización de la zona de trabajo
+                p Importante en todo trabajo, señalizar muy bien la zona a intervenir para minimizar riesgos y accidentes.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
