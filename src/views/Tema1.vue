@@ -13,7 +13,7 @@
         p.mb-0 El estudio de los fundamentos de electricidad constituye la base para comprender el comportamiento de los sistemas eléctricos y la interacción de sus componentes. Estos principios permiten explicar fenómenos esenciales como el movimiento de electrones, la presencia de cargas y la generación de campos eléctricos, los cuales sustentan el funcionamiento de cualquier circuito. Según autores especializados en el área de la electrofísica, comprender estas nociones iniciales es indispensable para analizar y predecir el comportamiento de la corriente, la tensión y la resistencia dentro de diferentes configuraciones eléctricas, facilitando el desarrollo de habilidades técnicas aplicadas al sector productivo.
         i.fas.fa-quote-right
       .bloque-texto-d__autor 
-        .h5.mb-0 Badui Dergal, 2025.
+        .h5.mb-0 Badui Dergal, (2025).
 
     separador
 
@@ -39,10 +39,10 @@
         .col-md-8.col-lg-6
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold Figura 1.
-            span Estructura del átomo
+            span La estructura del átomo
           figure.mb-2
-            img(data-aos="fade-up", src="@/assets/curso/tema1/img03.svg", alt="La figura ilustra la estructura del átomo: un núcleo con protones (+) y neutrones (0), rodeado de órbitas de electrones (-).")
-          figcaption <strong>Fuente:</strong> SENA, 2026
+            img(data-aos="fade-up", src="@/assets/curso/tema1/img03.svg", alt="En la siguiente figura se muestra la estructura del átomo: Protones, con carga positiva. Neutrones, sin carga eléctrica. Electrones, con carga negativa, que orbitan alrededor del núcleo.")
+          figcaption <strong>Nota.</strong> Adaptado de Floyd (2012) y Serway & Jewett (2014).
 
       p.mb-5 La mayor parte de la masa del átomo se concentra en el núcleo, donde se encuentran protones y neutrones, mientras que los electrones se distribuyen en diferentes niveles de energía. Esta distribución electrónica es clave para comprender por qué algunos materiales son conductores y otros no.
 
@@ -53,7 +53,7 @@
           span Partículas subatómicas y sus características principales
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Partícula
@@ -148,11 +148,11 @@
         .col-md-8.col-lg-5
           .titulo-sexto.color-acento-contenido.mb-4
             h5.text-bold Figura 2.
-            span Proceso de conducción del flujo de electrones
+            span Estructura simplificada del átomo de cobre
           figure.mb-2
-            img.mx-auto(data-aos="zoom-in", src="@/assets/curso/tema1/img07.svg", alt="Ilustración del flujo de electrones entre átomos").w-75
+            img.mx-auto(data-aos="zoom-in", src="@/assets/curso/tema1/img07.svg", alt="La figura 2 muestra la representación gráfica de la estructura atómica del cobre, destacando en el dibujo y en el texto al pie de la figura, la existencia de un único electrón en su capa exterior, el cual es de muy fácil afectación o pérdida, convirtiendo al cobre en un buen conductor de energía.").w-75
             //- img.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/img04_mob.svg", alt="La figura muestra átomos compartiendo un electrón de valencia de órbita en órbita, provocando un flujo.")
-          figcaption <strong>Fuente:</strong> SENA, 2026
+          figcaption <strong>Nota.</strong> SENA, (2026).
 
         
     .row.justify-content-center.mb-5
@@ -181,6 +181,21 @@
     
     p.mb-4 A continuación lo invitamos a consultar el siguiente podcast para ampliar los conceptos sobre el átomo y su estructura:
  
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-12.col-lg-8
+        .row.bg-color-4.align-items-center.justify-content-center.br-15
+          .col-md-6.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1
+            figure
+              img(src="@/assets/curso/tema2/img17.png", data-aos="zoom-in").mx-auto
+          .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-5  
+            h4.mb-3 ¿Sabías qué?
+            p.mb-3 Lo invitamos a escuchar el siguiente podcast:
+            TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
+              texto="Estructura del átomo, materiales conductores y flujo de electrones"
+              tiempo
+              :audio="require('@/assets/curso/audio/Podcast_1_CF01_83210128.mp3')"
+            )
+
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
@@ -188,7 +203,7 @@
           span Clasificación de los materiales según su conductividad
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Tipo de material
@@ -225,7 +240,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-9.col-lg-6.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in", alt="Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo. En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad. Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada. Nota. SENA, 2026.")
+          img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in", alt="Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo. En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad. Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada. Nota. SENA, (2026).")
       .col-md-12.col-lg-6
         .tarjeta.bg-color-3.p-4.mb-3.br-15
           p.mb-0 Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo.
@@ -347,7 +362,7 @@
           span Valores de carga eléctrica
         .tabla-a.color-acento-contenido
           table
-            caption Nota. Adaptado de MIT Open Course Ware, Electromagnetism Updates (2023).
+            caption Nota. Adaptado de MIT Open Course Ware, <em>Electromagnetism Updates</em> (2023).
             thead
               tr
                 th Partícula
@@ -469,7 +484,7 @@
             span Campo eléctrico, fórmulas y aplicación
           .tabla-a.color-acento-contenido
             table
-              caption Nota. SENA, 2026.
+              caption Nota. SENA, (2026).
               thead
                 tr
                   th Concepto
@@ -478,19 +493,19 @@
               tbody
                 tr
                   td Definición general.
-                  td E ⃗=F ⃗/q
+                  td E ⃗ = F ⃗/q
                   td Describe la intensidad del campo en cualquier punto.
                 tr
                   td Carga puntual.
-                  td E ⃗=k Q/r<sup>2</sup> r ̂
+                  td E ⃗ = k Q/r<sup>2</sup> r ̂
                   td Campo generado por cargas aisladas.
                 tr
                   td Campo uniforme.
-                  td E=V/d
+                  td E = V/d
                   td Placas paralelas, tableros, equipos eléctricos.
                 tr
                   td Fuerza eléctrica.
-                  td F ⃗=qE ⃗
+                  td F ⃗ = qE ⃗
                   td Cálculo de la interacción carga–campo.
 
     .container.justify-content-center.align-items-center.mb-5
@@ -627,7 +642,7 @@
                 .p-4
                   .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
                     h5.text-white.mb-0 Corriente continua (DC)
-                  p.mb-2 La corriente continua (Direct Current) se caracteriza por:
+                  p.mb-2 La corriente continua (<em>Direct Current</em>) se caracteriza por:
                   ul.lista-ul
                     li
                       i.fas.fa-circle-right.bg-color-17
@@ -646,7 +661,7 @@
                 .p-4
                   .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
                     h5.text-white.mb-0 Corriente alterna (AC)
-                  p.mb-2 La corriente alterna (Alternating Current):
+                  p.mb-2 La corriente alterna (<em>Alternating Current</em>):
                   ul.lista-ul
                     li
                       i.fas.fa-circle-right.bg-color-17
@@ -665,7 +680,7 @@
           span Fuentes típicas de corriente continua (DC) y corriente alterna (AC)
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Tipo de corriente
@@ -758,8 +773,7 @@
             img(src="@/assets/curso/tema1/img31.svg", data-aos="zoom-in")
         .col-lg-9.mb-4.mb-lg-0
           .tarjeta.bg-color-4.p-3.mb-3.br-15
-            p.mb-0 En el Sistema Internacional (SI), la unidad de carga es el coulomb (C). Esta unidad permite cuantificar de forma práctica la cantidad de carga que se desplaza en un conductor.
-
+            p.mb-0 La tensión eléctrica es la diferencia de potencial entre dos puntos de un circuito. Actúa como la “fuerza” que impulsa a los electrones a desplazarse.
           .lista-ul.mb-3
             li
               i.fas.fa-circle-right.bg-color-17
@@ -805,10 +819,10 @@
         .lista-ul.mb-3
           li
             i.fas.fa-circle-right.bg-color-17
-            | <b>Unidad: </b> amperio (A).
+            | #[strong Unidad]:&nbsp;amperio (A).
           li
             i.fas.fa-circle-right.bg-color-17
-            | <b>Instrumento: </b> amperímetro.
+            | #[strong Instrumento]:&nbsp;amperímetro.
           li
             i.fas.fa-circle-right.bg-color-17
             | Se mide en serie.
@@ -832,10 +846,10 @@
         .lista-ul.mb-3
           li
             i.fas.fa-circle-right.bg-color-17
-            | <b>Unidad: </b> Ohmio (&Omega;).
+            | #[strong Unidad]:&nbsp;Ohmio (&Omega;).
           li
             i.fas.fa-circle-right.bg-color-17
-            | <b>Instrumento: </b> Óhmetro.
+            | #[strong Instrumento]:&nbsp;Óhmetro.
           li
             i.fas.fa-circle-right.bg-color-17
             | La resistencia depende de: <br>
@@ -855,7 +869,7 @@
                 | Sección transversal
         
         .tarjeta.bg-color-2.p-3.mb-0(style="background-color: #E2F6F6")
-          p.mb-0 <b>Ejemplo simple:</b> un filamento de bombillo tiene alta resistencia &rarr; produce luz y calor.
+          p.mb-0 #[strong Ejemplo simple]:&nbsp;un filamento de bombillo tiene alta resistencia &rarr; produce luz y calor.
 
     .container.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -873,7 +887,7 @@
         .lista-ul.mb-3
           li
             i.fas.fa-circle-right.bg-color-17
-            | <b>Unidad: </b> Vatio (W).
+            | #[strong Unidad]:&nbsp;Vatio (W).
         
         .tarjeta.bg-color-4.p-3.mb-0
           p.mb-2 Fórmulas básicas:
@@ -895,7 +909,7 @@
           span Resumen de magnitudes
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Magnitud

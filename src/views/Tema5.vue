@@ -27,7 +27,7 @@
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.1 Ley de Ohm      
 
-    p.mb-4 Fue formulada en 1827 por el físico alemán Georg Simon Ohm, quien dedicó gran parte de su carrera a estudiar la conducción eléctrica en metales. Su obra Die galvanische Kette, mathematisch bearbeitet revolucionó el análisis de circuitos al proponer, por primera vez, una relación matemática que explicaba cómo la corriente variaba en función de la resistencia y la diferencia de potencial. Aunque inicialmente enfrentó críticas, la comunidad científica terminó reconociendo la Ley de Ohm como una de las bases de la electricidad moderna.
+    p.mb-4 Fue formulada en 1827 por el físico alemán Georg Simon Ohm, quien dedicó gran parte de su carrera a estudiar la conducción eléctrica en metales. Su obra <em>Die galvanische Kette, mathematisch bearbeitet</em> revolucionó el análisis de circuitos al proponer, por primera vez, una relación matemática que explicaba cómo la corriente variaba en función de la resistencia y la diferencia de potencial. Aunque inicialmente enfrentó críticas, la comunidad científica terminó reconociendo la Ley de Ohm como una de las bases de la electricidad moderna.
 
     .bg-full-width.bg-fondo-2
       .row.justify-content-center.mb-5

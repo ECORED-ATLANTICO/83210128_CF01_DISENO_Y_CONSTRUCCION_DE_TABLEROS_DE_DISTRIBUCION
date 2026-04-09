@@ -125,7 +125,7 @@
                 td Resistencia.
                 td Sin energía.
                 td No usar en circuitos energizados.
-          figcaption <strong>Fuente:</strong> SENA, 2026.
+          figcaption <strong>Nota.</strong> SENA, (2026).
 
     separador
 
@@ -176,25 +176,26 @@
               ul.lista-ul
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Selecciona función A AC o A DC.
+                  | Selecciona el rango de corriente correspondiente (mA o A).
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Conecta las puntas: Roja (terminal A o mA), Negra (terminal COM).
+                  | Conecta la punta roja en el terminal adecuado (mA o A).
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Abre el circuito y conecta en serie.
+                  | Abre el circuito y conecta el multímetro en serie.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Lee el valor en pantalla.
+                  | Lee el valor.
               
-              h5.mt-4 Precauciones:
+              h5.mt-4 Errores comunes:
               ul.lista-ul
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | No medir corriente en paralelo (cortocircuito).
+                  | Medir corriente en modalidad de voltaje (riesgo de daño).
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Asegurar que el rango sea superior a la corriente esperada.
+                  | Conectar en paralelo (cortocircuito).
+
             .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema3/img05.png")
@@ -205,25 +206,26 @@
               ul.lista-ul
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Selecciona función Ω.
+                  | Asegúrate de que el circuito esté completamente desenergizado.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Conecta las puntas: Roja (terminal VΩmA), Negra (terminal COM).
+                  | Selecciona Ω.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Tocar los extremos del componente (sin energía).
+                  | Conecta el multímetro directamente al componente.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Lee el valor en pantalla.
+                  | Verifica continuidad o resistencia.
               
-              h5.mt-4 Precauciones:
+              h5.mt-4 Errores comunes:
               ul.lista-ul
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Nunca medir con el circuito energizado.
+                  | Medir resistencia con tensión presente.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Evitar tocar las puntas con las manos.
+                  | Tocar terminales con los dedos (afecta la lectura).
+
             .col-lg-5.col-md-8
               figure
                 img(src="@/assets/curso/tema3/img06.png")
@@ -300,7 +302,7 @@
             td Faradio.
             td F
             td Capacidad de almacenar carga.
-      figcaption <strong>Fuente:</strong> SENA, 2026.
+      figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -317,7 +319,22 @@
                     span Enlace
                     i.fas.fa-link
     
-    p.mb-0 Adicionalmente lo invitamos a revisar el siguiente podcast que complementa de manera práctica los conceptos de tensión, corriente, resistencia y la relación entre estas tres magnitudes.
+    p.mb-4 Adicionalmente lo invitamos a revisar el siguiente podcast que complementa de manera práctica los conceptos de tensión, corriente, resistencia y la relación entre estas tres magnitudes.
+
+    .row.justify-content-center.align-items-center.mb-0
+      .col-md-12.col-lg-8
+        .row.bg-color-4.align-items-center.justify-content-center.br-15
+          .col-md-6.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1
+            figure
+              img(src="@/assets/curso/tema2/img17.png", data-aos="zoom-in").mx-auto
+          .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-5  
+            h4.mb-3 ¿Sabías qué?
+            p.mb-3 Lo invitamos a escuchar el siguiente podcast:
+            TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
+              texto="El triángulo de poder: voltaje, corriente y resistencia"
+              tiempo
+              :audio="require('@/assets/curso/audio/Podcast_2_CF01_83210128.mp3')"
+            )
 
     separador
 

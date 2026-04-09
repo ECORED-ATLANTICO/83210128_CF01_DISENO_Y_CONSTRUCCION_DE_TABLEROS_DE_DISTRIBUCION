@@ -155,7 +155,7 @@
           span Comparación general de materiales eléctricos
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Tipo de material
@@ -269,7 +269,7 @@
           span Componentes del circuito y su función
         .tabla-a.color-acento-contenido
           table
-            caption Nota. SENA, 2026.
+            caption Nota. SENA, (2026).
             thead
               tr
                 th Componente
@@ -318,9 +318,9 @@
             h5.text-bold Figura 3.
             span Protecciones eléctricas y su función en el circuito
           figure.mb-2
-            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito. En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”. Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, 2026.")
-            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img16_m.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito.  En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”.  Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, 2026.")
-          figcaption <strong>Nota:</strong> SENA, 2026
+            img.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img16.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito. En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”. Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, (2026).")
+            img.d-block.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img16_m.png", alt="La figura 3 presenta cuatro tipos de protecciones eléctricas y su función en un circuito.  En la parte superior aparece el título “Protecciones eléctricas: qué detectan, cuándo actúan y cómo protegen tu sistema”.  Debajo se describen, en columnas independientes, las siguientes protecciones: Sobrecorriente: identifica corrientes superiores a las permitidas y actúa para evitar daños por sobrecarga; incluye funciones como evitar el deterioro del aislamiento y proteger equipos sensibles. Electromagnética: opera ante cortocircuitos mediante desconexión rápida y previene daños graves en componentes eléctricos. Diferencial: detecta fugas de corriente a tierra, previene choques eléctricos y ayuda a identificar fallas de aislamiento, especialmente en zonas húmedas. Térmica: responde al sobrecalentamiento en motores o bobinas, deteniendo el sistema para evitar daños internos.  Cada protección cumple una función específica. La seguridad del sistema depende de la correcta selección e instalación de estos dispositivos. Nota. SENA, (2026).")
+          figcaption <strong>Nota:</strong> SENA, (2026).
 
 
 </template>

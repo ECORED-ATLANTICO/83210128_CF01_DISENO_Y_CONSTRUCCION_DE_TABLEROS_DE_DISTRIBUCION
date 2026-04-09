@@ -15,7 +15,7 @@
               figure
                 img(src="@/assets/curso/tema4/img01.png", data-aos="zoom-in")
             .col-lg-7.p-3
-              p.mb-3 El estudio de los materiales y componentes eléctricos es fundamental para comprender cómo se construyen, operan y mantienen los circuitos utilizados en el entorno industrial y residencial. Cada material posee propiedades eléctricas específicas que determinan su capacidad para conducir, limitar o bloquear el paso de la corriente eléctrica. Asimismo, los componentes básicos de un circuito —como fuentes, cargas, elementos de protección y dispositivos de control— permiten que la energía se distribuya de manera segura y eficiente.
+              p.mb-3 El análisis de los métodos de conexionado eléctrico permite comprender cómo interactúan los componentes dentro de un circuito y cómo se distribuyen la corriente, la tensión y la resistencia según la configuración utilizada. Las conexiones en serie, paralelo y mixtas constituyen la base de cualquier instalación eléctrica, desde sistemas residenciales hasta equipos industriales. Dominar estos conceptos garantiza que el aprendiz pueda interpretar diagramas, realizar mediciones y calcular parámetros eléctricos con precisión, fortaleciendo su criterio técnico para el diseño y mantenimiento de circuitos.
               
       separador
 
@@ -162,6 +162,8 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.4 Interpretación de diagramas y simbología
 
+    p.mb-4 La lectura de diagramas eléctricos es una habilidad fundamental para diseñar, instalar, diagnosticar y mantener sistemas eléctricos. El uso correcto de la simbología normalizada permite comunicar de manera universal la estructura y funcionamiento de un circuito.
+
     .bg-full-width.bg-fondo-1.mb-5.p-4.p-lg-5
       SlyderA(tipo="b").bg-color-white.p-2.p-lg-4.tarjeta
         .row.justify-content-center.align-items-center.p-4
@@ -255,7 +257,7 @@
                 td Fusible de protección.
                 td Protege el circuito ante sobrecorriente.
               tr
-                td Breaker / interruptor automático.
+                td <em>Breaker</em> / interruptor automático.
                 td Interruptor termomagnético.
                 td Desconecta el circuito ante sobrecargas o cortocircuitos.
               tr

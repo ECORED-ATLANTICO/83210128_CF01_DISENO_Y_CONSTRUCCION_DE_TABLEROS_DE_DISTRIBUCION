@@ -100,7 +100,7 @@
 
 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2 Clasificación de materiales
+      h2 6.2 Cálculo de tensión, corriente y potencia
 
     .bg-full-width.bg-fondo-2
       p.mb-4 En el análisis de circuitos eléctricos es fundamental calcular tres parámetros básicos: tensión (voltaje), corriente y potencia, ya que estos permiten comprender cómo se distribuye la energía dentro de un sistema eléctrico. El voltaje representa la fuerza que impulsa a los electrones a moverse por un conductor, la corriente corresponde al flujo de electrones que circula por el circuito, y la potencia indica cuánta energía eléctrica consume o transforma un dispositivo durante su funcionamiento. Estos parámetros se relacionan mediante principios como la Ley de Ohm y la Ley de Watt, que permiten realizar cálculos básicos en el diseño y análisis de circuitos eléctricos (Floyd, 2018).
