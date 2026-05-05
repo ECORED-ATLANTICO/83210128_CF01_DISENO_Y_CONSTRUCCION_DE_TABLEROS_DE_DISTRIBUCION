@@ -382,10 +382,11 @@ export default {
     {
       referencia:
         'Boylestad, R., & Nashelsky, L. (2015). <em>Electrónica: Teoría de Circuitos</em>. Pearson.',
+      link:
+        'https://unahll.wordpress.com/wp-content/uploads/2015/05/electrc3b3nica-teorc3ada-de-circuitos-y-dispositivos-electrc3b3nicos_10ed-boylestad.pdf',
     },
     {
       referencia: 'Coursera. (2024). <em>Fundamentals of Electricity</em>.',
-      link: 'https://www.coursera.org/learn/electricity',
     },
     {
       referencia:
@@ -414,12 +415,10 @@ export default {
     {
       referencia:
         'Khan Academy. (2025). <em>Electric Charge and Electric Field</em>.',
-      link: 'https://www.khanacademy.org/science/physics',
     },
     {
       referencia:
         'Modern Electrical Learning. (2025). <em>AC/DC Fundamentals and Applications</em>. OpenStax College. (2024). <em>Physics</em>.',
-      link: 'https://openstax.org/details/books/physics',
     },
     {
       referencia:
