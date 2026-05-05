@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="107" viewBox="0 0 107 107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_739669" data-name="Rectángulo 739669" width="55.915" height="55.915" fill="none" stroke="#034cad" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1212892" data-name="Grupo 1212892" transform="translate(-290.711 -4358)">
+    <path id="Elipse_5845" data-name="Elipse 5845" d="M53.5,0A53.5,53.5,0,1,1,0,53.5,53.5,53.5,0,0,1,53.5,0Z" transform="translate(290.711 4358)" fill="#ccdff8"/>
+    <g id="Grupo_1212097" data-name="Grupo 1212097" transform="translate(316.711 4384)">
+      <g id="Grupo_1212096" data-name="Grupo 1212096" clip-path="url(#clip-path)">
+        <path id="Rectángulo_739664" data-name="Rectángulo 739664" d="M2.3,0H32.1a2.3,2.3,0,0,1,2.3,2.3V43.641a2.3,2.3,0,0,1-2.3,2.3H2.3a2.3,2.3,0,0,1-2.3-2.3V2.3A2.3,2.3,0,0,1,2.3,0Z" transform="translate(0.986 0.986)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <ellipse id="Elipse_13871" data-name="Elipse 13871" cx="1.991" cy="1.991" rx="1.991" ry="1.991" transform="translate(26.65 39.051)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <ellipse id="Elipse_13872" data-name="Elipse 13872" cx="1.991" cy="1.991" rx="1.991" ry="1.991" transform="translate(5.743 39.051)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_739665" data-name="Rectángulo 739665" width="23.334" height="9.648" rx="2.013" transform="translate(6.758 6.974)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378322" data-name="Trazado 1378322" d="M8.6,22.9a6.871,6.871,0,1,1,6.872,6.872A6.872,6.872,0,0,1,8.6,22.9Z" transform="translate(2.715 5.059)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_739666" data-name="Rectángulo 739666" width="3.999" height="19.8" rx="0.899" transform="translate(9.773 22.371) rotate(-45)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378323" data-name="Trazado 1378323" d="M5.878,37.37v5.351a6.545,6.545,0,0,0,6.545,6.545H43.992a6.545,6.545,0,0,0,6.545-6.545V17.938" transform="translate(1.855 5.662)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_739667" data-name="Rectángulo 739667" width="4.777" height="9.481" transform="translate(50.151 14.477)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Línea_3544" data-name="Línea 3544" y2="5.165" transform="translate(52.393 9.312)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378324" data-name="Trazado 1378324" d="M21.769,37.37v3.668A3.934,3.934,0,0,0,25.7,44.972h6.14a3.934,3.934,0,0,0,3.934-3.934v-23.1" transform="translate(6.871 5.662)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <rect id="Rectángulo_739668" data-name="Rectángulo 739668" width="4.777" height="9.481" transform="translate(40.406 14.477)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Línea_3545" data-name="Línea 3545" y2="5.165" transform="translate(42.648 9.312)" fill="none" stroke="#034cad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
