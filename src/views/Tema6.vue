@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Material y componentes eléctricos
+      h1 Cálculo de parámetros eléctricos
 
     .bg-full-width.bg-fondo-2
       .container.justify-content-center.mb-3
@@ -34,7 +34,7 @@
       SlyderA(tipo="b").bg-color-white.p-2.p-lg-4.tarjeta
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.mb-4.mb-lg-0
-            h4 Circuitos en serie
+            h4 Circuito en serie
             p.mb-4 En un circuito en serie, las resistencias se conectan una después de la otra formando un solo camino para la corriente. Toda la corriente que sale de la fuente debe pasar por cada resistencia antes de regresar a la fuente.
             h5 Características principales
             ul.lista-ul.mb-0
@@ -53,7 +53,7 @@
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-7.mb-4.mb-lg-0
-            h4 Circuitos en paralelo
+            h4 Circuito en paralelo
             p.mb-4 En un circuito en paralelo, cada resistencia tiene su propio camino para la corriente, pero todas están conectadas a los mismos puntos de la fuente de voltaje. Esto significa que todas las resistencias reciben el mismo voltaje y que la corriente se divide entre las diferentes ramas.
             h5 Características principales
             ul.lista-ul.mb-0
@@ -149,7 +149,7 @@
                   | Resistencia de cables y componentes.
                 li
                   i.fas.fa-circle-right.bg-color-17
-                  | Calor generado (Efecto Joule).
+                  | Calor generado (efecto Joule).
                 li
                   i.fas.fa-circle-right.bg-color-17
                   | Conductores largos o delgados.

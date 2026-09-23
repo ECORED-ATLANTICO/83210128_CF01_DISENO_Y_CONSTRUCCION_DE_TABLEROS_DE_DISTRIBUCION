@@ -34,6 +34,7 @@
                   .p-3.text-center.mb-3(style="background-color: #1254C7; border-radius: 4px;")
                     h4.text-white.mb-0 Multímetro digital
                   p.mb-3 Es el instrumento más versátil, capaz de medir tensión (AC/DC), corriente (AC/DC), resistencia, continuidad, y en algunos casos frecuencia y capacidad.
+                  p Características clave:
                   ul.lista-ul
                     li
                       i.fas.fa-circle-right.bg-color-17
@@ -158,7 +159,7 @@
                   i.fas.fa-circle-right.bg-color-17
                   | Lee el valor en pantalla.
               
-              h5.mt-4 Evitar:
+              h5.mt-4 Errores comunes:
               ul.lista-ul
                 li
                   i.fas.fa-circle-right.bg-color-17
@@ -408,7 +409,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación lo invitamos a consultar en este enlace de video para reforzar el conocimientos de las 5 de oro en seguridad eléctrica:
+                  p.mb-0 A continuación, lo invitamos a consultar en este enlace de video para reforzar el conocimientos de las 5 reglas de oro en seguridad eléctrica:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=atL-7CQfjhc&t=21s" target="_blank")
                     span Enlace

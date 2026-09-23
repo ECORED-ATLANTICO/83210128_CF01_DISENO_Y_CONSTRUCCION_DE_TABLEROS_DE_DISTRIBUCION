@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Material y componentes eléctricos
+      h1 Materiales y componentes eléctricos
 
     .bg-full-width.bg-fondo-2
       .container.justify-content-center.mb-3
@@ -249,7 +249,7 @@
                 img(src="@/assets/curso/tema2/img09.svg", style="width: 70px")
             .col
               h4 Elementos de protección
-              p.mb-0 Los elementos de protección limitan fallas eléctricas y resguardan a las personas al actuar ante condiciones anormales del circuito. Sus dispositivos principales (interruptores automáticos, fusibles y diferenciales) operan para informar sobrecorrientes, aislar cortocircuitos y detectar fugas a tierra, asegurando la integridad y continuidad del sistema.
+              p.mb-0 Los elementos de protección limitan fallas eléctricas y resguardan a las personas al actuar ante condiciones anormales del circuito. Sus dispositivos principales (interruptores automáticos, fusibles y diferenciales) operan para interrumpir sobrecorrientes, aislar cortocircuitos y detectar fugas a tierra, asegurando la integridad y continuidad del sistema.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12

@@ -171,7 +171,7 @@
             figure
               img(src="@/assets/curso/tema1/img09.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 El flujo de electrones ocurre porque:
+            h4.mb-3 El flujo de electrones ocurre porque
             p.mb-0.font-size-13 
               ul.lista-ul.mb-0
                 li Los átomos conductores tienen electrones débilmente ligados.
@@ -232,7 +232,7 @@
         .bg-color-1.p-4.bg-tarjeta.mb-3
           .row.align-items-center
             .col
-              p.mb-0 La comprensión del átomo y su estructura permite fundamentar el estudio de las magnitudes eléctricas, ya que el comportamiento de los electrones es la base de los fenómenos eléctricos. La corriente eléctrica (I) se entiende como el flujo ordenado de electrones a través de un conductor; el voltaje (V) representa la fuerza o diferencia de potencial que impulsa ese movimiento; y la resistencia (R) constituye la oposición que ofrece el material al paso de dichos electrones. Estas magnitudes no son conceptos aislados, sino que se articulan en principios como la Ley de Ohm, la cual describe matemáticamente su relación y explica cómo el comportamiento microscópico de los electrones en un material se traduce en efectos eléctricos medibles a nivel macroscópico.              
+              p.mb-0 La comprensión del átomo y su estructura permite fundamentar el estudio de las magnitudes eléctricas, ya que el comportamiento de los electrones es la base de los fenómenos eléctricos. La corriente eléctrica (I) se entiende como el flujo ordenado de electrones a través de un conductor; el voltaje (V) representa la fuerza o diferencia de potencial que impulsa ese movimiento; y la resistencia (R) constituye la oposición que ofrece el material al paso de dichos electrones. Estas magnitudes no son conceptos aislados, sino que se articulan en principios como la ley de Ohm, la cual describe matemáticamente su relación y explica cómo el comportamiento microscópico de los electrones en un material se traduce en efectos eléctricos medibles a nivel macroscópico.              
             .col-auto.d-none.d-md-flex
               figure
                 img(src="@/assets/curso/tema1/img10.svg", data-aos="zoom-in")
@@ -243,13 +243,13 @@
           img(src="@/assets/curso/tema1/img11.svg", data-aos="zoom-in", alt="Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo. En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad. Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada. Nota. SENA, (2026).")
       .col-md-12.col-lg-6
         .tarjeta.bg-color-3.p-4.mb-3.br-15
-          p.mb-0 Los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo.
+          p.mb-0 <b>Dirección de la corriente eléctrica</b>: los electrones se distribuyen alrededor del núcleo en niveles energéticos; a medida que estos se alejan, disminuye la fuerza de atracción del núcleo.
             
         .tarjeta.bg-color-3.p-4.mb-3.br-15
-          p.mb-0 En el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad.
+          p.mb-0 <b>Banda de conducción</b>: en el último nivel, llamado banda de conducción, la atracción es más débil y los electrones que allí se encuentran se denominan electrones libres, ya que pueden desplazarse de un átomo a otro cuando el material es excitado por calor, luz o electricidad.
             
         .tarjeta.bg-color-3.p-4.mb-3.br-15
-          p.mb-0 Este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada.
+          p.mb-0 <b>Electrón libre</b>: este movimiento continuo de electrones libres es el que origina la corriente eléctrica, y cuanto mayor sea la cantidad de electrones que se desplacen, mayor será la energía eléctrica generada.
             
     .bg-full-width.bg-fondo-2
       .row.justify-content-center.align-items-center.mb-3
@@ -438,7 +438,7 @@
             .col-lg-auto.mb-lg-0
               img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
             .col-lg
-              p.mb-0 Las líneas del campo eléctrico salen de las cargas positivas y entran en las negativas, lo que explica que las cargas del mismo signo se repelan y las de signo opuesto se atraigan. Al representar varios campos simultáneamente, se aplica el principio de superposición, según el cual el campo total es la suma vectorial de los campos generados por cada carga. Por esta razón, las líneas de campo no pueden cruzarse, ya que cada punto del espacio solo puede tener una dirección definida para el campo eléctrico ( IEEE Educational Resourses, 2024)
+              p.mb-0 Las líneas del campo eléctrico salen de las cargas positivas y entran en las negativas, lo que explica que las cargas del mismo signo se repelan y las de signo opuesto se atraigan. Al representar varios campos simultáneamente, se aplica el principio de superposición, según el cual el campo total es la suma vectorial de los campos generados por cada carga. Por esta razón, las líneas de campo no pueden cruzarse, ya que cada punto del espacio solo puede tener una dirección definida para el campo eléctrico (IEEE Educational Resourses, 2024).
 
       .row.jtify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-7
@@ -571,7 +571,7 @@
           .col-lg-6.mb-4.mb-lg-0
             h4 Monitoreo de la contaminación de suelos y aguas subterráneas.
             p.mb-3 Los campos eléctricos también se utilizan en la monitorización de la contaminación de suelos y aguas subterráneas. Una vez más, la técnica de resistividad eléctrica ayuda a identificar la distribución y extensión de contaminantes, como productos químicos o metales pesados.
-            p.mb-0 Al realizar mediciones de en diferentes puntos de un área contaminada, es posible mapear la distribución espacial de los contaminantes y evaluar su impacto ambiental.
+            p.mb-0 Al realizar mediciones en diferentes puntos de un área contaminada, es posible mapear la distribución espacial de los contaminantes y evaluar su impacto ambiental.
           .col-lg-6.col-md-8
             figure
               img(src='@/assets/curso/tema1/img25.png', alt='Monitoreo de la contaminación')
@@ -652,7 +652,7 @@
                       | Mantiene un valor de voltaje estable en el tiempo.
                     li
                       i.fas.fa-circle-right.bg-color-17
-                      | Es ideal en dispositivos electrónicos y sistemas de almacenamiento energético.
+                      | Ser ideal en dispositivos electrónicos y sistemas de almacenamiento energético.
 
             .col-xl-6.col-lg-6.col-md-6.col-12.mb-4.mb-lg-0
               .tarjeta.bg-color-white.box-shadow.p-0.h-100
@@ -749,7 +749,7 @@
 
     .bg-full-width.bg-fondo-2
       #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4 Magnitudes eléctricas básicas: tensión, corriente, resistencia, potencia
+        h2 1.4 Magnitudes eléctricas básicas: tensión, corriente, resistencia, potencia
 
 
       .row.justify-content-center.align-items-center.mb-5
@@ -758,7 +758,7 @@
             .col-lg-auto.mb-lg-0.mb-4
               img.d-none.d-lg-flex(src="@/assets/curso/tema1/img13.svg", style="").mx-auto
             .col-lg
-              p.mb-0 Las magnitudes eléctricas básicas constituyen el lenguaje fundamental con el que se describen y analizan los circuitos eléctricos. Comprender qué es el voltaje, cómo mide la corriente, por qué existe la resistencia en los materiales y de qué manera se calcula la potencia permite interpretar mediciones, diseñar circuitos funcionales y prever el comportamiento de un sistema eléctrico. Estas magnitudes se relacionan entre sí mediante leyes universales como la Ley de Ohm, lo que facilita el análisis matemático y experimental. En este apartado, el aprendiz podrá identificar estas magnitudes, entender su propósito y aplicarlas en situaciones reales de trabajo.
+              p.mb-0 Las magnitudes eléctricas básicas constituyen el lenguaje fundamental con el que se describen y analizan los circuitos eléctricos. Comprender qué es el voltaje, cómo se mide la corriente, por qué existe la resistencia en los materiales y de qué manera se calcula la potencia permite interpretar mediciones, diseñar circuitos funcionales y prever el comportamiento de un sistema eléctrico. Estas magnitudes se relacionan entre sí mediante leyes universales como la Ley de Ohm, lo que facilita el análisis matemático y experimental. En este apartado, el aprendiz podrá identificar estas magnitudes, entender su propósito y aplicarlas en situaciones reales de trabajo.
 
       .container.justify-content-center.align-items-center.mb-5
         .col-lg-12
@@ -846,10 +846,10 @@
         .lista-ul.mb-3
           li
             i.fas.fa-circle-right.bg-color-17
-            | #[strong Unidad]:&nbsp;Ohmio (&Omega;).
+            | #[strong Unidad]:&nbsp;ohmio (&Omega;).
           li
             i.fas.fa-circle-right.bg-color-17
-            | #[strong Instrumento]:&nbsp;Óhmetro.
+            | #[strong Instrumento]:&nbsp;óhmetro.
           li
             i.fas.fa-circle-right.bg-color-17
             | La resistencia depende de: <br>
@@ -857,16 +857,16 @@
             ul
               li
                 i.lista-ul__vineta 
-                | Material
+                | Material.
               li
                 i.lista-ul__vineta 
-                | Temperatura
+                | Temperatura.
               li
                 i.lista-ul__vineta 
-                | Longitud
+                | Longitud.
               li
                 i.lista-ul__vineta 
-                | Sección transversal
+                | Sección transversal.
         
         .tarjeta.bg-color-2.p-3.mb-0(style="background-color: #E2F6F6")
           p.mb-0 #[strong Ejemplo simple]:&nbsp;un filamento de bombillo tiene alta resistencia &rarr; produce luz y calor.
@@ -887,7 +887,7 @@
         .lista-ul.mb-3
           li
             i.fas.fa-circle-right.bg-color-17
-            | #[strong Unidad]:&nbsp;Vatio (W).
+            | #[strong Unidad]:&nbsp;vatio (W).
         
         .tarjeta.bg-color-4.p-3.mb-0
           p.mb-2 Fórmulas básicas:
