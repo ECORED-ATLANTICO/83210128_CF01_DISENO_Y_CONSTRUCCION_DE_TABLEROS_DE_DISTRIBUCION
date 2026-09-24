@@ -409,7 +409,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, lo invitamos a consultar en este enlace de video para reforzar el conocimientos de las 5 reglas de oro en seguridad eléctrica:
+                  p.mb-0 A continuación, lo invitamos a consultar en este enlace de video para reforzar el conocimiento de las 5 reglas de oro en seguridad eléctrica:
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=atL-7CQfjhc&t=21s" target="_blank")
                     span Enlace
