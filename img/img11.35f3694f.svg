@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="107" viewBox="0 0 107 107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_739677" data-name="Rectángulo 739677" width="55.915" height="54.599" fill="none" stroke="#17c1c1" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1212891" data-name="Grupo 1212891" transform="translate(-290.711 -4228)">
+    <path id="Elipse_5845" data-name="Elipse 5845" d="M53.5,0A53.5,53.5,0,1,1,0,53.5,53.5,53.5,0,0,1,53.5,0Z" transform="translate(290.711 4228)" fill="#bafbfb"/>
+    <g id="Grupo_1212104" data-name="Grupo 1212104" transform="translate(316.711 4254)">
+      <g id="Grupo_1212103" data-name="Grupo 1212103" clip-path="url(#clip-path)">
+        <path id="Rectángulo_739676" data-name="Rectángulo 739676" d="M4.556,0h44.83a4.556,4.556,0,0,1,4.556,4.556V27.021a4.555,4.555,0,0,1-4.555,4.555H4.556A4.556,4.556,0,0,1,0,27.02V4.556A4.556,4.556,0,0,1,4.556,0Z" transform="translate(0.987 22.037)" fill="none" stroke="#17c1c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378325" data-name="Trazado 1378325" d="M25.894,27.5a3.745,3.745,0,1,0-4.815,3.572v7.173a1.07,1.07,0,0,0,2.141,0V31.068A3.733,3.733,0,0,0,25.894,27.5Z" transform="translate(5.809 7.497)" fill="none" stroke="#17c1c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378326" data-name="Trazado 1378326" d="M43.272,21.8V17.582A16.832,16.832,0,0,0,26.44.75H24.582A16.832,16.832,0,0,0,7.75,17.582V21.8Z" transform="translate(2.446 0.237)" fill="none" stroke="#17c1c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_1378327" data-name="Trazado 1378327" d="M38.834,20.966V17.445c0-7.761-6.018-14.052-13.439-14.052H23.912c-7.423,0-13.441,6.291-13.441,14.052v3.521Z" transform="translate(3.305 1.071)" fill="none" stroke="#17c1c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
